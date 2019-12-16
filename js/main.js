@@ -13,7 +13,11 @@
             $(this).closest('ul').find('.selected').removeClass('selected');
             $(this).parent().addClass('selected');
             if(href=="game-setup") {
+                console.log("load game setup")
                 $("#placeholder").load("game-setup.html");
+            } else if (href == "resume") {
+                console.log("load resume")
+                $("#placeholder").load("resume.html");
             }
             
             // $.ajax({
