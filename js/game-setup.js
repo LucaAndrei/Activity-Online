@@ -21,9 +21,9 @@
 				}
 			}
         });
-        $("#begin").click(function() {
-            console.log("begin click");
-            
-        })
+        // $("#begin").click(function() {
+        //     console.log("begin click");
+
+        // })
 
 })(jQuery);
