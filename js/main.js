@@ -5,12 +5,17 @@
 
     $('ul.form li a').click(
         function (e) {
-            console.log("click")
+            console.log("click", e, )
+            var href=$(this).attr('href');
+            console.log("TCL: href", href)
             e.preventDefault(); // prevent the default action
             e.stopPropagation; // stop the click from bubbling
             $(this).closest('ul').find('.selected').removeClass('selected');
             $(this).parent().addClass('selected');
-            $("#placeholder").load("game-setup.html");
+            if(href=="game-setup") {
+                $("#placeholder").load("game-setup.html");
+            }
+            
             // $.ajax({
             //     url: "./game-setup.html",
             //     cache: false
