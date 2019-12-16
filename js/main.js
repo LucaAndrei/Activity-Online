@@ -5,7 +5,7 @@
 
     $('ul.form li a').click(
         function (e) {
-            console.log("click", e, )
+            console.log("click", e)
             var href=$(this).attr('href');
             console.log("TCL: href", href)
             e.preventDefault(); // prevent the default action
