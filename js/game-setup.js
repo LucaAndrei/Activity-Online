@@ -1,25 +1,25 @@
 (function ($) {
-    var element = $('.title');
-    console.log("TCL: element", element)
+    $(".counter__increment, .counter__decrement").click(function(e)
+		{
+			var $this = $(this);
+            console.log("TCL: $this", $this)
+			var $counter__input = $(this).parent().find(".counter__input");
+            console.log("TCL: $counter__input", $counter__input)
+			var $currentVal = parseInt($(this).parent().find(".counter__input").val());
+            console.log("TCL: $currentVal", $currentVal)
 
-
-    $('.titleSet').click(
-        function (e) {
-            console.log("titleSet click")
-            // e.preventDefault(); // prevent the default action
-            // e.stopPropagation; // stop the click from bubbling
-            // $(this).closest('ul').find('.selected').removeClass('selected');
-            // $(this).parent().addClass('selected');
-            // // $("#placeholder").load("game-setup.html");
-            // $.ajax({
-            //     url: "./game-setup.html",
-            //     cache: false
-            // })
-            //     .done(function (html) {
-            //         console.log("TCL: html", html)
-            //         $("#placeholder").append(html);
-            //     });
-        });
-
+			//Increment
+			if ($currentVal != NaN && $this.hasClass('counter__increment'))
+			{
+				$counter__input.val($currentVal + 1);
+			}
+			//Decrement
+			else if ($currentVal != NaN && $this.hasClass('counter__decrement'))
+			{
+				if ($currentVal >= 1) {
+					$counter__input.val($currentVal - 1);
+				}
+			}
+		});
 
 })(jQuery);

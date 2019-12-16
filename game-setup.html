@@ -1,2 +1,87 @@
 <script src="js/game-setup.js"></script>
-<p class="titleSet">set</p>
+<style>
+    .wrap {
+        width: 500px;
+        margin: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        border-radius: 4px;
+        background-color: #ffffff;
+        box-shadow: 0 1px 2px 0 #c9ced1;
+        padding: 1.25rem;
+        margin-bottom: 1.25rem;
+    }
+
+    /* ------------------------------ COUNTER BEGIN ------------------------------ */
+    .counter__increment,
+    .counter__decrement {
+        transition: all 0.4s ease-in-out;
+    }
+
+    .counter {
+        position: relative;
+        width: 7.5rem;
+        height: 1.875rem;
+        border: 1px solid #2f3640;
+        border-radius: 3px;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .counter__input {
+        border: none;
+        height: 100%;
+        margin: 0 auto;
+        text-align: center;
+        color: #2f3640;
+        font-size: 0.875rem;
+        background-color: transparent;
+    }
+
+    .counter__increment,
+    .counter__decrement {
+        position: absolute;
+        top: 0;
+        font-size: 1rem;
+        line-height: 1.5625rem;
+        height: 1.875rem;
+        width: 2.1875rem;
+        font-weight: normal;
+        color: #2f3640;
+        text-decoration: none;
+    }
+
+    .counter__increment:hover,
+    .counter__increment:active,
+    .counter__increment:focus,
+    .counter__decrement:hover,
+    .counter__decrement:active,
+    .counter__decrement:focus {
+        color: #2f3640;
+        text-decoration: none;
+        background-color: #edeff0;
+    }
+
+    .counter__increment {
+        right: 0;
+        border-left: 1px solid #2f3640;
+    }
+
+    .counter__decrement {
+        left: 0;
+        top: 0;
+        border-right: 1px solid #2f3640;
+        line-height: 1.6875rem;
+    }
+</style>
+
+<div class="wrap">
+    <h1>Counter, increment, decrement</h1>
+    <div class="counter">
+        <input class="counter__input" type="text" value="1" name="counter" size="5" readonly="readonly" /><a
+            class="counter__increment" href="#">+</a><a class="counter__decrement" href="#">&ndash;</a>
+    </div>
+</div>
