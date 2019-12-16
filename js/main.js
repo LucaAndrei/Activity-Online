@@ -12,11 +12,10 @@
             e.stopPropagation; // stop the click from bubbling
             $(this).closest('ul').find('.selected').removeClass('selected');
             $(this).parent().addClass('selected');
-            console.log("haidi uaai")
-            if(href=="game-setup") {
+            if(href=="game-setup.html") {
                 console.log("load game setup")
                 $("#placeholder").load("game-setup.html");
-            } else if (href == "resume") {
+            } else if (href == "resume.html") {
                 console.log("load resume")
                 $("#placeholder").load("resume.html");
             }
