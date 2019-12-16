@@ -21,9 +21,10 @@
 				}
 			}
         });
-        // $("#begin").click(function() {
-        //     console.log("begin click");
-
-        // })
+        $("#begin").click(function() {
+            console.log("begin click");
+            $("#placeholder").load("resume.html")
+            
+        })
 
 })(jQuery);
