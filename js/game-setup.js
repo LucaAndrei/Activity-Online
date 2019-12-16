@@ -3,14 +3,14 @@
     console.log("TCL: element", element)
 
 
-    $('ul.form li a').click(
+    $('.titleSet').click(
         function (e) {
-            console.log("click")
-            e.preventDefault(); // prevent the default action
-            e.stopPropagation; // stop the click from bubbling
-            $(this).closest('ul').find('.selected').removeClass('selected');
-            $(this).parent().addClass('selected');
-            $("#placeholder").load("game-setup.html");
+            console.log("titleSet click")
+            // e.preventDefault(); // prevent the default action
+            // e.stopPropagation; // stop the click from bubbling
+            // $(this).closest('ul').find('.selected').removeClass('selected');
+            // $(this).parent().addClass('selected');
+            // // $("#placeholder").load("game-setup.html");
             // $.ajax({
             //     url: "./game-setup.html",
             //     cache: false
