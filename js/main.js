@@ -20,10 +20,10 @@
             $(this).parent().addClass('selected');
             if(elementClass.indexOf("game-setup") > -1) {
                 console.log("load game setup")
-                // $("#placeholder").load("game-setup.html");
+                $("#placeholder").load("game-setup.html");
             } else if (elementClass.indexOf("resume") > -1) {
                 console.log("load resume")
-                // $("#placeholder").load("resume.html");
+                $("#placeholder").load("resume.html");
             }
         });
 
