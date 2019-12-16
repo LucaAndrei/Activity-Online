@@ -2,32 +2,29 @@
     var element = $('.title');
     console.log("TCL: element", element)
 
+    $('.navbar-brand').click(function(e) {
+        e.preventDefault(); // prevent the default action
+        e.stopPropagation; // stop the click from bubbling
+        location.reload(true);
+    })
 
-    $('ul.form li a').click(
+
+    $('ul.menu-list li').click(
         function (e) {
-            console.log("click", e, $(this).attr('href'));
-            var href=$(this).attr('href');
-            console.log("TCL: href", href)
+            console.log("click", e, $(this).attr('class'));
+            var elementClass = $(this).attr('class');
+            console.log("TCL: elementClass", elementClass)
             e.preventDefault(); // prevent the default action
             e.stopPropagation; // stop the click from bubbling
             $(this).closest('ul').find('.selected').removeClass('selected');
             $(this).parent().addClass('selected');
-            if(href=="game-setup.html") {
+            if(elementClass.indexOf("game-setup") > -1) {
                 console.log("load game setup")
-                $("#placeholder").load("game-setup.html");
-            } else if (href == "resume.html") {
+                // $("#placeholder").load("game-setup.html");
+            } else if (elementClass.indexOf("resume") > -1) {
                 console.log("load resume")
-                $("#placeholder").load("resume.html");
+                // $("#placeholder").load("resume.html");
             }
-            
-            // $.ajax({
-            //     url: "./game-setup.html",
-            //     cache: false
-            // })
-            //     .done(function (html) {
-            //         console.log("TCL: html", html)
-            //         $("#placeholder").append(html);
-            //     });
         });
 
 
