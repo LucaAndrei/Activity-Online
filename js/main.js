@@ -26,6 +26,9 @@
                 $("#placeholder").load("resume.html");
             }
         });
+    $("#begin").click(function (e) {
+        console.log("begin click")
+    })
 
 
 })(jQuery);

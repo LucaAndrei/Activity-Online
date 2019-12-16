@@ -20,6 +20,10 @@
 					$counter__input.val($currentVal - 1);
 				}
 			}
-		});
+        });
+        $("#begin").click(function() {
+            console.log("begin click");
+            
+        })
 
 })(jQuery);

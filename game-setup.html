@@ -1,25 +1,12 @@
 <script src="js/game-setup.js"></script>
 <style>
     .wrap {
-        width: 500px;
-        margin: auto;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        border-radius: 4px;
-        background-color: #ffffff;
-        box-shadow: 0 1px 2px 0 #c9ced1;
-        padding: 1.25rem;
-        margin-bottom: 1.25rem;
+        width: 18rem;
+        display: flex;
+        align-items: center;
     }
 
     /* ------------------------------ COUNTER BEGIN ------------------------------ */
-    .counter__increment,
-    .counter__decrement {
-        transition: all 0.4s ease-in-out;
-    }
 
     .counter {
         position: relative;
@@ -78,10 +65,19 @@
     }
 </style>
 
-<div class="wrap">
-    <h1>Counter, increment, decrement</h1>
+<div class="wrap card">
+    <h5>Teams</h5>
     <div class="counter">
         <input class="counter__input" type="text" value="1" name="counter" size="5" readonly="readonly" /><a
             class="counter__increment" href="#">+</a><a class="counter__decrement" href="#">&ndash;</a>
     </div>
+    <br />
+    <h5>No. of players / team</h5>
+    <div class="counter">
+        <input class="counter__input" type="text" value="1" name="counter" size="5" readonly="readonly" /><a
+            class="counter__increment" href="#">+</a><a class="counter__decrement" href="#">&ndash;</a>
+    </div>
+    <br />
+    <button type="button" class="btn btn-primary" id="begin">Begin</button>
+
 </div>
