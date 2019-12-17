@@ -23,7 +23,7 @@
         });
         $("#begin").click(function() {
             console.log("begin click");
-            $("#placeholder").load("resume.html") 
+            $("#placeholder").load("game.html") 
         });
 
         $.getJSON("js/data.json", data => {
