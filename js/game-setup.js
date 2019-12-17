@@ -23,8 +23,10 @@
         });
         $("#begin").click(function() {
             console.log("begin click");
-            $("#placeholder").load("resume.html")
-            
-        })
+            $("#placeholder").load("resume.html") 
+        });
 
+        $.getJSON("./data.json", data => {
+            console.log("game setup TCL: data", data)
+        })
 })(jQuery);

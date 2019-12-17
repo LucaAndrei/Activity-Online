@@ -27,5 +27,8 @@
             }
         });
 
-
+        
+        $.getJSON("./data.json", data => {
+            console.log("TCL: data", data)
+        })
 })(jQuery);
