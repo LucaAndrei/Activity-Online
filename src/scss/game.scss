@@ -1,0 +1,317 @@
+$blue: #06699e;
+$blue: #00a2e8;
+
+$pink:#c63873;
+$pink: #d1597f;
+
+$orange: #da9e79;
+$orange: #ff7f27;
+
+$yellow: #d3b22f;
+$yellow: #d1a538;
+$yellow: #ffc90e;
+
+$dark-blue: #455275;
+
+$green: #2d7742;
+$green: #206225;
+.board {
+    background: rgb(19, 61, 39);
+    background: linear-gradient(90deg, rgba(19, 61, 39, 1) 0%, rgba(95, 125, 87, 1) 50%, rgba(19, 61, 39, 1) 100%);
+    background: radial-gradient(circle, rgba(19, 61, 39, 1) 0%, rgba(95, 125, 87, 1) 50%, rgba(19, 61, 39, 1) 100%);
+    background: linear-gradient(180deg, rgba(19, 61, 39, 1) 0%, rgba(95, 125, 87, 1) 50%, rgba(19, 61, 39, 1) 100%);
+    background: radial-gradient(circle, rgba(95, 125, 87, 1) 50%, rgba(19, 61, 39, 1) 100%, rgba(19, 61, 39, 1) 100%);
+    padding: 90px 0 20px 20px;
+
+    .challenges {
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+        .challenges--row {
+            display: flex;
+            width: 100%;
+
+            .challenge {
+                width: 25%;
+                // height: 3.5rem;
+                border: 2px solid;
+                margin: 2px;
+                
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+
+                .pawn {
+                    height: 50%;
+                    position: absolute;
+                    top: -10px;
+                    left: 0;
+            
+                    &.green {
+                        content: url('../../img/pawn_green.svg');
+                    }
+                    &.red {
+                        content: url('../../img/pawn_red.svg');
+                    }
+                    &.yellow {
+                        content: url('../../img/pawn_yellow.svg');
+                    }
+                    &.blue {
+                        content: url('../../img/pawn_blue.svg');
+                    }
+                }
+
+                &.blue {
+                    background-color: $blue;
+                    &:before {
+                        content: url('../../img/speak.svg');
+                        width: 50%;
+                    }
+                }
+                &.dark-blue {
+                    background-color: $dark-blue;
+                    &:before {
+                        content: url('../../img/speak.svg');
+                        width: 50%;
+                    }
+                }
+                &.pink {
+                    background-color: $pink;
+                    &:before {
+                        content: url('../../img/mime.svg');
+                        width: 50%;
+                    }
+                }
+                &.orange {
+                    background-color: $orange;
+                    &:before {
+                        content: url('../../img/mime.svg');
+                        width: 50%;
+                    }
+                }
+                &.yellow {
+                    background-color: $yellow;
+                    &:before {
+                        content: url('../../img/draw.svg');
+                        width: 50%;
+                    }
+                }
+                &.green {
+                    background-color: $green;
+                    &:before {
+                        content: url('../../img/draw.svg');
+                        width: 50%;
+                    }
+                }
+            }
+            &:nth-child(6n+1), &:nth-child(6n+2) {
+                .challenge {
+                    border-color: pink;
+                }
+            }
+            &:nth-child(3), &:nth-child(4),&:nth-child(9), &:nth-child(10) {
+                .challenge {
+                    border-color: lightblue;
+                }
+            }
+            &:nth-child(5), &:nth-child(6),&:nth-child(11), &:nth-child(12) {
+                .challenge {
+                    border-color: lightyellow;
+                }
+            }
+            &:nth-child(odd) {
+                flex-direction: row-reverse;
+                .challenge:first-child {
+                    border-bottom-right-radius: 20px;
+                }
+                .challenge:last-child {
+                    border-top-left-radius: 20px;
+                }
+            }
+            &:nth-child(even) {
+                .challenge:first-child {
+                    border-bottom-left-radius: 20px;
+                }
+                .challenge:last-child {
+                    border-top-right-radius: 20px;
+                }
+            }
+        }
+    }
+    
+    .cards {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        
+        .start,
+        .finish {
+            height: 4rem;
+            width: 4rem;
+            position: relative;
+            .diamond {
+                position: relative;
+            }
+            .pawn {
+                height: 100%;
+                position: absolute;
+                top: -10px;
+                left: -10px;
+                transform: rotate(-45deg);
+                &.green {
+                    content: url('../../img/pawn_green.svg');
+                }
+                &.red {
+                    content: url('../../img/pawn_red.svg');
+                }
+                &.yellow {
+                    content: url('../../img/pawn_yellow.svg');
+                }
+                &.blue {
+                    content: url('../../img/pawn_blue.svg');
+                }
+            }
+        }
+        .start {
+            margin-bottom: 2rem;
+            .diamond-grid {
+                border: 3px solid white;
+                .diamond-grid--row {
+                    width: 50%;
+                    .diamond {
+                        height: 50%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+            }
+        }
+        .finish {
+            .diamond-grid {
+                border: 3px solid black;
+                .diamond-grid--row {
+                    width: 25%;
+                    .diamond {
+                        height: 25%;
+                    }
+                }
+            }
+        }
+
+        .points {
+            height: 6rem;
+            width: 4rem;
+            font-size: 4rem;
+            -webkit-text-stroke: 2px black;
+            color: #ffc90e;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: rgb(135, 149, 54);
+            background: radial-gradient(circle, rgba(135, 149, 54, 1) 50%, rgba(19, 61, 39, 1) 100%, rgba(19, 61, 39, 1) 100%);
+            border: 6px solid white;
+            font-weight: bolder;
+            border-radius: .25rem;
+            margin-top: 1rem;
+        }
+    }
+    .arrow {
+        width: 4rem;
+        height: 4rem;
+        position: absolute;
+        display: inline-block;
+        left: -3rem;
+        &:before, &:after {
+            content: '';
+            border-color: transparent;
+            border-style: solid;
+            position: absolute;
+        }
+        &.arrow-left, &.arrow-right {
+            &:before {
+                border: none;
+                background-color: #ffc90e;
+                height: 30%;
+                width: 50%;
+                top: 35%;
+            }
+            &:after {
+                top: 0;
+                border-width: 2rem 2rem;
+            }
+        }
+        &.arrow-left {
+            &:before {
+                left: 50%;
+            }
+            &:after {
+                left: -50%;
+                border-right-color: #ffc90e;
+            }
+        }
+        &.arrow-right {
+            z-index: 9999;
+            &:before {
+                left: 0;
+            }
+            &:after {
+                left: 50%;
+                border-left-color: #ffc90e;
+            }
+        }
+    }
+
+    .diamond-grid {
+        height: 100%;
+        width: 100%;
+        position: relative;
+        display: flex;
+        transform: rotate(45deg);
+        margin: 2px;
+        z-index: 999;
+        &:before {
+            content: " ";
+            position: absolute;
+            z-index: -1;
+            top: 5px;
+            left: 5px;
+            right: 5px;
+            bottom: 5px;
+            border: 5px solid black;
+        }
+        .diamond-grid--row {
+            .diamond {
+                width: 100%;
+                &.blue {
+                    background-color: $blue;
+                    border: 0.5px solid cadetblue;
+                }
+                &.green {
+                    background-color: $green;
+                    border: 0.5px solid green;
+                }
+                &.pink {
+                    background-color: $pink;
+                    border: 0.5px solid pink;
+                }
+                &.yellow {
+                    background-color: $yellow;
+                    border: 0.5px solid yellow;
+                }
+                &.white {
+                    background-color: white;
+                }
+                &.black {
+                    background-color: black;
+                }
+            }
+        }
+    }
+}
+
+
+
