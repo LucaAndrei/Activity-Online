@@ -28,7 +28,7 @@
         });
 
         
-        $.getJSON("./data.json", data => {
+        $.getJSON("js/data.json", data => {
             console.log("TCL: data", data)
         })
 })(jQuery);

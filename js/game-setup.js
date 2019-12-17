@@ -26,7 +26,7 @@
             $("#placeholder").load("resume.html") 
         });
 
-        $.getJSON("./data.json", data => {
+        $.getJSON("js/data.json", data => {
             console.log("game setup TCL: data", data)
         })
 })(jQuery);
