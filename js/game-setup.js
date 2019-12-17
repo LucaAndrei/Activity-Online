@@ -22,7 +22,7 @@
 			}
         });
         $("#begin").click(function() {
-            console.log("begin click");
+            console.log("begin click load game html");
             $("#placeholder").load("game.html") 
         });
 

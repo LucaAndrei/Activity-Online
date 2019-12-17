@@ -1,26 +1,3 @@
-<!doctype html>
-<html class="no-js" lang="">
-
-<head>
-    <meta charset="utf-8">
-    <title>Activity Online</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
-
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
-
-
-</head>
-
-
-
 <style>
     .square {
         background-color: red;
@@ -145,7 +122,6 @@
     }
 </style>
 
-<body>
     <div class="bg-green d-flex h-100" style="padding: 20px; PADDING-RIGHT: 0">
         <div class="col10">
             <div class="squares d-flex flex-wrap">
@@ -210,34 +186,34 @@
             <div class="points">3</div>
             <div class="finish mt-3">
 
-                    <span class="arrow arrow-right"></span>
+                <span class="arrow arrow-right"></span>
 
-                    <div class="d-grid d-flex">
-                        <div class="rr">
-                            <div class="diamond white"></div>
-                            <div class="diamond black"></div>
-                            <div class="diamond white"></div>
-                            <div class="diamond black"></div>
-                        </div>
-                        <div class="rr">
-                            <div class="diamond black "></div>
-                            <div class="diamond white"></div>
-                            <div class="diamond black "></div>
-                            <div class="diamond white"></div>
-                        </div>
-                        <div class="rr">
-                            <div class="diamond white"></div>
-                            <div class="diamond black"></div>
-                            <div class="diamond white"></div>
-                            <div class="diamond black"></div>
-                        </div>
-                        <div class="rr">
-                            <div class="diamond black "></div>
-                            <div class="diamond white"></div>
-                            <div class="diamond black "></div>
-                            <div class="diamond white"></div>
-                        </div>
+                <div class="d-grid d-flex">
+                    <div class="rr">
+                        <div class="diamond white"></div>
+                        <div class="diamond black"></div>
+                        <div class="diamond white"></div>
+                        <div class="diamond black"></div>
                     </div>
+                    <div class="rr">
+                        <div class="diamond black "></div>
+                        <div class="diamond white"></div>
+                        <div class="diamond black "></div>
+                        <div class="diamond white"></div>
+                    </div>
+                    <div class="rr">
+                        <div class="diamond white"></div>
+                        <div class="diamond black"></div>
+                        <div class="diamond white"></div>
+                        <div class="diamond black"></div>
+                    </div>
+                    <div class="rr">
+                        <div class="diamond black "></div>
+                        <div class="diamond white"></div>
+                        <div class="diamond black "></div>
+                        <div class="diamond white"></div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -309,7 +285,8 @@
             border-left-color: #ffc90e;
         }
 
-        .initPos, .finish {
+        .initPos,
+        .finish {
             height: 4rem;
             width: 4rem;
             position: relative;
@@ -325,29 +302,34 @@
             position: relative;
             z-index: 999;
         }
+
         .d-grid:before {
             content: " ";
-  position: absolute;
-  z-index: -1;
-  top: 5px;
-  left: 5px;
-  right: 5px;
-  bottom: 5px;
-  border: 5px solid black;
+            position: absolute;
+            z-index: -1;
+            top: 5px;
+            left: 5px;
+            right: 5px;
+            bottom: 5px;
+            border: 5px solid black;
         }
 
         .d-grid .rr {
             width: 50%;
         }
+
         .diamond.blue {
             border: 0.5px solid cadetblue;
         }
+
         .diamond.green {
             border: 0.5px solid green;
         }
+
         .diamond.pink {
             border: 0.5px solid pink;
         }
+
         .diamond.yellow {
             border: 0.5px solid yellow;
         }
@@ -356,17 +338,17 @@
             width: 100%;
             height: 50%;
         }
+
         .finish .d-grid {
-            
+
             border: 3px solid black;
         }
+
         .finish .d-grid .rr {
             width: 25%;
         }
+
         .finish .d-grid .rr .diamond {
             height: 25%;
         }
     </style>
-</body>
-
-</html>
