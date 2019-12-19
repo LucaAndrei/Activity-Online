@@ -1,0 +1,205 @@
+<div class="d-flex flex-column">
+    <div class="currentPlayer"></div>
+
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+        Launch demo modal
+    </button>
+    <div class="d-flex">
+
+        <div class="challenges">
+            <div class="challenges--row border-red">
+                <div class="challenge speak rounded-0"></div>
+                <div class="challenge draw"></div>
+                <div class="challenge mime"></div>
+                <div class="challenge speak"></div>
+            </div>
+            <div class="challenges--row border-red">
+
+                <div class="challenge speak"></div>
+                <div class="challenge mime1"></div>
+                <div class="challenge speak1"></div>
+                <div class="challenge draw1"></div>
+            </div>
+
+            <div class="challenges--row border-light-blue">
+
+                <div class="challenge mime"></div>
+                <div class="challenge speak"></div>
+                <div class="challenge draw1"></div>
+                <div class="challenge speak1"></div>
+            </div>
+            <div class="challenges--row border-light-blue">
+
+                <div class="challenge draw"></div>
+                <div class="challenge mime"></div>
+                <div class="challenge mime1"></div>
+                <div class="challenge draw"></div>
+            </div>
+
+            <div class="challenges--row border-light-yelow">
+
+                <div class="challenge speak"></div>
+                <div class="challenge mime"></div>
+                <div class="challenge mime1"></div>
+                <div class="challenge mime"></div>
+            </div>
+            <div class="challenges--row border-light-yelow">
+
+                <div class="challenge draw1"></div>
+                <div class="challenge draw"></div>
+                <div class="challenge draw1"></div>
+                <div class="challenge mime1"></div>
+            </div>
+
+            <div class="challenges--row border-red">
+
+                <div class="challenge draw1"></div>
+                <div class="challenge speak1"></div>
+                <div class="challenge mime"></div>
+                <div class="challenge speak"></div>
+            </div>
+            <div class="challenges--row border-red">
+
+                <div class="challenge mime1 "></div>
+                <div class="challenge speak1"></div>
+                <div class="challenge draw"></div>
+                <div class="challenge draw1"></div>
+            </div>
+
+            <div class="challenges--row border-light-blue">
+                <div class="challenge draw "></div>
+                <div class="challenge mime1"></div>
+                <div class="challenge mime1"></div>
+                <div class="challenge speak"></div>
+            </div>
+            <div class="challenges--row border-light-blue">
+
+                <div class="challenge mime"></div>
+                <div class="challenge draw1"></div>
+                <div class="challenge draw"></div>
+                <div class="challenge mime"></div>
+            </div>
+
+            <div class="challenges--row border-light-yelow">
+                <div class="challenge draw1"></div>
+                <div class="challenge speak1"></div>
+                <div class="challenge speak1"></div>
+                <div class="challenge mime1"></div>
+            </div>
+            <div class="challenges--row border-light-yelow">
+
+                <div class="challenge speak"></div>
+                <div class="challenge draw"></div>
+                <div class="challenge mime"></div>
+                <div class="challenge mime1 rounded-0"></div>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="start">
+                <span class="arrow arrow-left"></span>
+
+                <div class="diamond-grid">
+                    <div class="diamond-grid--row">
+                        <div class="diamond blue">
+                        </div>
+                        <div class="diamond green">
+                        </div>
+                    </div>
+                    <div class="diamond-grid--row">
+                        <div class="diamond red">
+                        </div>
+                        <div class="diamond yellow">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="points" points="5">5</div>
+            <div class="points" points="4">4</div>
+            <div class="points" points="3">3</div>
+            <div class="finish mt-3">
+
+                <span class="arrow arrow-right"></span>
+
+                <div class="diamond-grid">
+                    <div class="diamond-grid--row">
+                        <div class="diamond white"></div>
+                        <div class="diamond black"></div>
+                        <div class="diamond white"></div>
+                        <div class="diamond black"></div>
+                    </div>
+                    <div class="diamond-grid--row">
+                        <div class="diamond black "></div>
+                        <div class="diamond white"></div>
+                        <div class="diamond black "></div>
+                        <div class="diamond white"></div>
+                    </div>
+                    <div class="diamond-grid--row">
+                        <div class="diamond white"></div>
+                        <div class="diamond black"></div>
+                        <div class="diamond white"></div>
+                        <div class="diamond black"></div>
+                    </div>
+                    <div class="diamond-grid--row">
+                        <div class="diamond black "></div>
+                        <div class="diamond white"></div>
+                        <div class="diamond black "></div>
+                        <div class="diamond white"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+
+                <h5 class="modal-title d-flex align-items-center justify-content-between w-100" id="exampleModalLabel">
+
+                    <span>Time left : <span class="time-left">1:30</span></span>
+                    <span>
+                    <button type="button" class="btn btn-primary startTimer">Start</button>
+                    <button type="button" class="btn btn-secondary showWord">Show</button></span>
+                </h5>
+            </div>
+            <div class="modal-body">
+
+                <div class="card-challenge draw rounded">
+                    <div class="icon"></div>
+                    <div class="text" challenge="draw">cuvant 1</div>
+                </div>
+
+                <div class="card-challenge speak rounded">
+                    <div class="icon"></div>
+                    <div class="text" challenge="speak">cuvant 1</div>
+                </div>
+
+                <div class="card-challenge mime rounded">
+                    <div class="icon"></div>
+                    <div class="text" challenge="mime">cuvant 1</div>
+                </div>
+
+                <div class="card-challenge draw1 rounded">
+                    <div class="icon"></div>
+                    <div class="text" challenge="draw1">cuvant 1</div>
+                </div>
+
+                <div class="card-challenge speak1 rounded">
+                    <div class="icon"></div>
+                    <div class="text" challenge="speak1">cuvant 1</div>
+                </div>
+                <div class="card-challenge mime1 rounded">
+                    <div class="icon"></div>
+                    <div class="text" challenge="mime1">cuvant 1</div>
+                </div>
+            </div>
+            <div class="modal-footer flex-nowrap">
+                <button type="button" class="btn btn-lg btn-danger wrongAnswer" data-dismiss="modal">Wrong</button>
+                <button type="button" class="btn btn-lg btn-success correctAnswer">Correct</button>
+            </div>
+        </div>
+    </div>
+</div>

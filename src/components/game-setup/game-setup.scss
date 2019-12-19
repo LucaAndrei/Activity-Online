@@ -1,0 +1,58 @@
+.wrap {
+    display: flex;
+    align-items: center;
+    
+}
+
+
+/* ------------------------------ COUNTER BEGIN ------------------------------ */
+
+.counter {
+    position: relative;
+    width: 7.5rem;
+    height: 1.875rem;
+    border: 1px solid #2f3640;
+    border-radius: 3px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.counter__input {
+    border: none;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: #2f3640;
+    font-size: 0.875rem;
+    background-color: transparent;
+}
+
+.counter__increment,
+.counter__decrement {
+    position: absolute;
+    top: 0;
+    font-size: 1rem;
+    line-height: 1.5625rem;
+    height: 1.875rem;
+    width: 2.1875rem;
+    font-weight: normal;
+    color: #2f3640;
+    text-decoration: none;
+    &:hover, &:active, &:focus {
+        color: #2f3640;
+        text-decoration: none;
+        background-color: #edeff0;
+    }
+}
+
+.counter__increment {
+    right: 0;
+    border-left: 1px solid #2f3640;
+}
+
+.counter__decrement {
+    left: 0;
+    top: 0;
+    border-right: 1px solid #2f3640;
+    line-height: 1.6875rem;
+}

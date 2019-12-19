@@ -1,0 +1,36 @@
+.game-menu {
+    width: 18rem;
+    &.card {
+        li {
+            cursor: pointer;
+            text-transform: uppercase;
+            color: #686868;
+            -webkit-transition: all 0.2s linear;
+            -moz-transition: all 0.2s linear;
+            -o-transition: all 0.2s linear;
+            transition: all 0.2s linear;
+            i {
+                margin-right: 15px;
+                -webkit-transition: all 0.2s linear;
+                -moz-transition: all 0.2s linear;
+                -o-transition: all 0.2s linear;
+                transition: all 0.2s linear;
+            }
+            &:hover {
+                background: #efefef;
+                i {
+                    color: #ea4f35;
+                }
+            }
+            &.game-setup {
+                border-left: 5px solid #008747;
+            }
+            &.resume {
+                border-left: 5px solid #cf2130;
+            }
+            &.logout {
+                border-left: 5px solid #dde2d5;
+            }
+        }
+    }
+}
