@@ -1,9 +1,5 @@
 <div class="d-flex flex-column">
     <div class="currentPlayer"></div>
-
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-        Launch demo modal
-    </button>
     <div class="d-flex">
 
         <div class="challenges">
@@ -152,17 +148,16 @@
 </div>
 
 <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal fade" id="cardModal" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header">
 
-                <h5 class="modal-title d-flex align-items-center justify-content-between w-100" id="exampleModalLabel">
+                <h5 class="modal-title d-flex align-items-center justify-content-between w-100" id="cardModalLabel">
 
-                    <span>Time left : <span class="time-left">1:30</span></span>
+                    <span>Time left : <span class="time-left">90</span> seconds</span>
                     <span>
                     <button type="button" class="btn btn-primary startTimer">Start</button>
-                    <button type="button" class="btn btn-secondary showWord">Show</button></span>
                 </h5>
             </div>
             <div class="modal-body">
@@ -199,6 +194,21 @@
             <div class="modal-footer flex-nowrap">
                 <button type="button" class="btn btn-lg btn-danger wrongAnswer" data-dismiss="modal">Wrong</button>
                 <button type="button" class="btn btn-lg btn-success correctAnswer">Correct</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="modal fade" id="finishModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            
+            <div class="modal-body">
+                <h1>Game finished !</h1>
+                <h3>Winning team <span id="winningTeam"></span></h3>
+                <button type="button" class="btn btn-lg btn-success restartGame">Restart</button>
             </div>
         </div>
     </div>

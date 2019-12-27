@@ -1,11 +1,13 @@
+
+
 .board {
     background: rgb(19,61,39);
     background: linear-gradient(90deg,rgba(19,61,39,1) 0%,rgba(95,125,87,1) 50%,rgba(19,61,39,1) 100%);
     background: radial-gradient(circle,rgba(19,61,39,1) 0%,rgba(95,125,87,1) 50%,rgba(19,61,39,1) 100%);
     background: linear-gradient(180deg,rgba(19,61,39,1) 0%,rgba(95,125,87,1) 50%,rgba(19,61,39,1) 100%);
     background: radial-gradient(circle,rgba(95,125,87,1) 50%,rgba(19,61,39,1) 100%,rgba(19,61,39,1) 100%);
-    padding: 0 0 20px 20px;
-    height: 100vh;
+    padding: 60px 0 20px 20px;
+    height: auto;
 
 }
 

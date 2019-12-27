@@ -9,12 +9,11 @@ const GameSetup = (($, uiService, storageService, components) => {
     const players = [];
 
     var init = () => {
-        console.log("setup ", $, $(".counter__increment, .counter__decrement"))
         $(".counter__increment, .counter__decrement").click(function (e) {
             var counterInput = $(this).parent().find(".counter__input");
             var counterInput__name = $(this).parent().find(".counter__input").attr("name");
 
-            var currentVal = parseInt($(this).parent().find(".counter__input").val());
+            var currentVal = parseInt(counterInput.val());
 
             if (currentVal != NaN && $(this).hasClass('counter__increment')) {
                 if (counterInput__name === 'playersCounter') {
@@ -42,45 +41,40 @@ const GameSetup = (($, uiService, storageService, components) => {
             isReadyForStart();
 
         });
+        
         $("#begin").click(function () {
 
             saveNames();
-            console.log("begin click load game html", players);
-            // $("#placeholder").load("game.html")\
             const teamNames = ['red', 'green', 'blue', 'yellow']
             const teams = [];
             for(var i = 0 ; i < players.length; i++) {
                 teams.push({
-                    teamName: teamNames[i],
+                    name: teamNames[i],
                     players: players[i],
                     points: 0
                 })
             }
             const gameDetails = {
                 teams: teams,
-                currentPlayer: '',
+                currentPlayer: {
+                    ...teams[0].players[0],
+                    team: teams[0].name
+                },
+                usedCards: []
             }
-            storageService.save('activity-game-details', JSON.stringify(gameDetails));
-            const gd = storageService.get('activity-game-details')
-            console.log("TCL: init -> gd", gd)
-            const x =JSON.parse(gd);
-            console.log("TCL: init -> x", x)
+            storageService.save(gameDetails);
             if(isReadyForStart()) {
-                console.log("START GAME");
                 uiService.loadTemplate(components['boardgame'].templateUrl, () => {
                     require('../boardgame/boardgame')($, uiService, storageService, components).init();
                 })
             }
         });
 
-        $.getJSON("js/data.json", data => {
-            console.log("game setup TCL: data", data)
-        })
+        
         saveNames();
         setNameInputs();
         
         if (isReadyForStart()) {
-            console.log("START GAME 111")
         } else {
             disableBeginBtn();
         }
@@ -90,18 +84,14 @@ const GameSetup = (($, uiService, storageService, components) => {
         $("#begin").attr('disabled', 'disabled');
     }
     function enableBeginBtn() {
-        console.log("enable begin")
         $("#begin").removeAttr('disabled');
     }
     function isReadyForStart() {
-        console.log("TCL: isReadyForStart -> players", players)
         saveNames();
         const nameInputsEmpty = players.filter(team=> {
-            const t = team.filter(player=> player === "");
-            console.log("TCL: isReadyForStart -> t", t)
+            const t = team.filter(player=> player.name === "");
             return t.length > 0
         }).length
-        console.log("TCL: isReadyForStart -> nameInputsEmpty", nameInputsEmpty)
         return nameInputsEmpty === 0;
     }
 
@@ -111,11 +101,12 @@ const GameSetup = (($, uiService, storageService, components) => {
             players[i] = [];
             for (var j = 0; j < teams[i]; j++) {
                 const playerName = $(`[name='player_${i}_${j}']`).val() || '';
-                players[i].push(playerName);
+                players[i].push({
+                    "name": playerName,
+                    "played": false
+                });
             }
         }
-        console.log("TCL: saveNames -> players", players)
-
     }
 
     function getTeams() {
@@ -133,12 +124,11 @@ const GameSetup = (($, uiService, storageService, components) => {
 
     function setNameInputs() {
         const teams = getTeams();
-        console.log("TCL: init -> teams", teams)
         $('.name-input-container').html('');
         for (var i = 0; i < teams.length; i++) {
             let inputs = '';
             for (var j = 0; j < teams[i]; j++) {
-                const playerName = players[i][j] || '';
+                const playerName = players[i][j].name || '';
                 inputs += `<input class='name-input form-control' type='text' name='player_${i}_${j}' value='${playerName}' />`
             }
             const teamDiv = `
@@ -147,7 +137,6 @@ const GameSetup = (($, uiService, storageService, components) => {
                     ${inputs}
                 </div>
             `;
-            console.log("TCL: init -> teamDiv", teamDiv)
             $('.name-input-container').append(teamDiv);
         }
         $('.name-input').keyup(function(e) {

@@ -1,0 +1,3908 @@
+[
+    {
+        "draw": "lamelă de aur",
+        "speak": "iugăr cadastral",
+        "mime": "vânătoare de rațe",
+        "draw1": "braț mort red",
+        "speak1": "foaie matricolă",
+        "mime1": "telefon fix",
+        "points": "4"
+    },
+    {
+        "draw": "lasou",
+        "speak": "abonament la operă red",
+        "mime": "ceașcă de cafea",
+        "draw1": "ridicarea steagului",
+        "speak1": "motivație",
+        "mime1": "necuviincios",
+        "points": "4"
+    },
+    {
+        "draw": "sutană",
+        "speak": "ramă de brodat",
+        "mime": "țeavă de gaz red",
+        "draw1": "pânză de corabie",
+        "speak1": "piersică",
+        "mime1": "crac de pantalon",
+        "points": "4"
+    },
+    {
+        "draw": "iris",
+        "speak": "spată mobilă",
+        "mime": "ochi bulbucați",
+        "draw1": "cui în sicriu",
+        "speak1": "golgheter",
+        "mime1": "daltă red",
+        "points": "4"
+    },
+    {
+        "draw": "recif de corali red",
+        "speak": "bufet rece",
+        "mime": "pilot de port",
+        "draw1": "salată de melci",
+        "speak1": "salatieră",
+        "mime1": "gură de scurgere",
+        "points": "4"
+    },
+    {
+        "draw": "mobilier de grădină",
+        "speak": "trântirea ușilor",
+        "mime": "fixativ pentru păr red",
+        "draw1": "factură de energie electrică",
+        "speak1": "contuzie",
+        "mime1": "om putred de bogat",
+        "points": "4"
+    },
+    {
+        "draw": "ring de box",
+        "speak": "funcționar",
+        "mime": "miros penetrant",
+        "draw1": "cor bisericesc",
+        "speak1": "elixir",
+        "mime1": "montgolfier red",
+        "points": "4"
+    },
+    {
+        "draw": "câine-ghid pentru nevăzători",
+        "speak": "pană de curent",
+        "mime": "salt al valurilor red",
+        "draw1": "scăriță la șa",
+        "speak1": "comanditar",
+        "mime1": "tuse cronică",
+        "points": "4"
+    },
+    {
+        "draw": "pagodă red",
+        "speak": "regulament",
+        "mime": "urcuș",
+        "draw1": "regată",
+        "speak1": "perie aspră",
+        "mime1": "fierbinte ca focul",
+        "points": "4"
+    },
+    {
+        "draw": "rampă de acces pentru mașini",
+        "speak": "coeficient de inteligență red",
+        "mime": "lampă de aromaterapie",
+        "draw1": "cercul polar",
+        "speak1": "melodia care dă titlul albumului",
+        "mime1": "suport de cărți de vizită",
+        "points": "4"
+    },
+    {
+        "draw": "antenă pentru acoperiș",
+        "speak": "tocilă",
+        "mime": "hrăpăreț",
+        "draw1": "peroneu",
+        "speak1": "glazură de ciocolată",
+        "mime1": "hoț de magazine red",
+        "points": "4"
+    },
+    {
+        "draw": "pulpa piciorului",
+        "speak": "numărul locuitorilor",
+        "mime": "teanc de documente",
+        "draw1": "osia din față red",
+        "speak1": "stea norocoasă",
+        "mime1": "fustă dreaptă",
+        "points": "4"
+    },
+    {
+        "draw": "câmp petrolier red",
+        "speak": "lanț de magazine angro",
+        "mime": "deschizător de scrisori",
+        "draw1": "ciorapi stay-up",
+        "speak1": "schelet de caroserie",
+        "mime1": "sticluță de parfum",
+        "points": "4"
+    },
+    {
+        "draw": "lanț muntos",
+        "speak": "muscă tze-tze",
+        "mime": "bucată de caș red",
+        "draw1": "pădurar",
+        "speak1": "mânia persecuției",
+        "mime1": "costum la comandă",
+        "points": "4"
+    },
+    {
+        "draw": "pilot automat",
+        "speak": "progres",
+        "mime": "automat pentru cafea",
+        "draw1": "plic preadresat",
+        "speak1": "impozit în avans red",
+        "mime1": "video player",
+        "points": "4"
+    },
+    {
+        "draw": "ploscă",
+        "speak": "cod numeric",
+        "mime": "nuiele de împletit coșuri",
+        "draw1": "aripă de rechin",
+        "speak1": "vânzător de vechituri",
+        "mime1": "contor de apă red",
+        "points": "4"
+    },
+    {
+        "draw": "rădăcina firului de par",
+        "speak": "căpitan de cavalerie",
+        "mime": "asfixiere",
+        "draw1": "vânzătoare de flori",
+        "speak1": "moralist red",
+        "mime1": "tablou",
+        "points": "4"
+    },
+    {
+        "draw": "cameră cu televizor",
+        "speak": "psiholog",
+        "mime": "răscroiala gâtului red",
+        "draw1": "turnuri gemene",
+        "speak1": "audiență",
+        "mime1": "zahăr candel pe băț",
+        "points": "4"
+    },
+    {
+        "draw": "piele de elefant",
+        "speak": "solariu",
+        "mime": "aortă",
+        "draw1": "introducerea aței în ac red",
+        "speak1": "Țara minunilor",
+        "mime1": "caiet cu inele",
+        "points": "4"
+    },
+    {
+        "draw": "urcatul în copac",
+        "speak": "supapă de închidere",
+        "mime": "bancomat",
+        "draw1": "magnet pentru frigider red",
+        "speak1": "situație de pat (șah)",
+        "mime1": "burduhan",
+        "points": "4"
+    },
+    {
+        "draw": "supă de ciuperci",
+        "speak": "om descurcăreț",
+        "mime": "tunsoare",
+        "draw1": "cântar de bucătărie",
+        "speak1": "excursie scurtă",
+        "mime1": "bosumflat red",
+        "points": "4"
+    },
+    {
+        "draw": "bazin descoperit",
+        "speak": "lider de gașcă",
+        "mime": "vânător de autograme",
+        "draw1": "fotografie plan întreg",
+        "speak1": "rețea electrică",
+        "mime1": "elixir de dragoste red",
+        "points": "4"
+    },
+    {
+        "draw": "velă mare",
+        "speak": "speranță de viață",
+        "mime": "linie de fractură",
+        "draw1": "dop de șampanie",
+        "speak1": "deplasare de probă",
+        "mime1": "proba de 500 metri plat red",
+        "points": "4"
+    },
+    {
+        "draw": "furnicar",
+        "speak": "cremă cu alune",
+        "mime": "cu capul descoperit red",
+        "draw1": "belciug",
+        "speak1": "livadă de măslini",
+        "mime1": "aruncare de la margine",
+        "points": "4"
+    },
+    {
+        "draw": "cartuș de dinamită red",
+        "speak": "punct de congelare",
+        "mime": "război de tranșee",
+        "draw1": "casă duplex",
+        "speak1": "revistă",
+        "mime1": "sfoară de sac",
+        "points": "4"
+    },
+    {
+        "draw": "târg de mașini",
+        "speak": "secret de stat",
+        "mime": "ricșă red",
+        "draw1": "căruță trasă de cai",
+        "speak1": "Pasărea pe sârmă",
+        "mime1": "pelerină de ploaie",
+        "points": "4"
+    },
+    {
+        "draw": "menoragie",
+        "speak": "altitudine de zbor",
+        "mime": "șurub cu aripioară",
+        "draw1": "cățel de usturoi",
+        "speak1": "reacție recalcitrantă",
+        "mime1": "notă muzicală red",
+        "points": "4"
+    },
+    {
+        "draw": "rochie de bal",
+        "speak": "clădire de demolat",
+        "mime": "exercițiu la inele red",
+        "draw1": "cătușe",
+        "speak1": "persoană respectabilă",
+        "mime1": "cutie cu vopsea",
+        "points": "4"
+    },
+    {
+        "draw": "arbore de cauciuc",
+        "speak": "în contact cu pielea",
+        "mime": "avar red",
+        "draw1": "puț de țiței",
+        "speak1": "iluzie",
+        "mime1": "capac de rezervor cu închizătoare",
+        "points": "4"
+    },
+    {
+        "draw": "centrală nucleară",
+        "speak": "rațiune",
+        "mime": "hârtie cerată",
+        "draw1": "deviație de sept nazal red",
+        "speak1": "libertatea presei",
+        "mime1": "nas roșu de bețiv",
+        "points": "4"
+    },
+    {
+        "draw": "arșic",
+        "speak": "ordin de arestare",
+        "mime": "bâlbâială",
+        "draw1": "maimuță antropoidă",
+        "speak1": "restaurant red",
+        "mime1": "cornișă de șemineu",
+        "points": "4"
+    },
+    {
+        "draw": "foaie de observație",
+        "speak": "șovinist",
+        "mime": "dureri la membre red",
+        "draw1": "pată de transpirație",
+        "speak1": "asociație de locatari",
+        "mime1": "aruncare la coș",
+        "points": "4"
+    },
+    {
+        "draw": "infuzie de capital",
+        "speak": "marochinărie",
+        "mime": "cursul apei red",
+        "draw1": "castelul vrăjit",
+        "speak1": "rezervație naturală",
+        "mime1": "sală de fitness",
+        "points": "4"
+    },
+    {
+        "draw": "punct de cotitură",
+        "speak": "examen de rutină",
+        "mime": "program de șah red",
+        "draw1": "casă de păpuși",
+        "speak1": "poamă bună",
+        "mime1": "șervețel de hârtie",
+        "points": "4"
+    },
+    {
+        "draw": "Statuia Libertății",
+        "speak": "mucos red",
+        "mime": "răcoritoare",
+        "draw1": "pâine prăjită",
+        "speak1": "scară de incendiu",
+        "mime1": "șalupă",
+        "points": "4"
+    },
+    {
+        "draw": "paravan",
+        "speak": "ogradă de păsări",
+        "mime": "pompă de incendiu red",
+        "draw1": "Insula comorii",
+        "speak1": "aparat de anestezie",
+        "mime1": "alegeri papale",
+        "points": "4"
+    },
+    {
+        "draw": "țăruș pentru flori",
+        "speak": "faptă de vitejie",
+        "mime": "bob de cafea",
+        "draw1": "colanți groși",
+        "speak1": "inițiativă de reforma red",
+        "mime1": "iubitor de animale",
+        "points": "4"
+    },
+    {
+        "draw": "fagure de miere",
+        "speak": "cod de conduită",
+        "mime": "rație red",
+        "draw1": "ciocolată cu lapte",
+        "speak1": "idee năstrușnică",
+        "mime1": "apă de răcire",
+        "points": "4"
+    },
+    {
+        "draw": "capul familiei",
+        "speak": "jocuri mecanice red",
+        "mime": "instigator",
+        "draw1": "legătură de chei",
+        "speak1": "magnet",
+        "mime1": "inel pentru chei",
+        "points": "4"
+    },
+    {
+        "draw": "braț de ochelari",
+        "speak": "hardware",
+        "mime": "unghi ascuțit",
+        "draw1": "păretar",
+        "speak1": "coniac",
+        "mime1": "set de piese de șah red",
+        "points": "4"
+    },
+    {
+        "draw": "mină de aur red",
+        "speak": "ideal",
+        "mime": "muncă murdară",
+        "draw1": "scară de frânghie",
+        "speak1": "produs fitofarmaceutic",
+        "mime1": "ferăstrău cu motor",
+        "points": "4"
+    },
+    {
+        "draw": "naufragiu",
+        "speak": "procuror general",
+        "mime": "start din picioare",
+        "draw1": "antenă de cameră",
+        "speak1": "stradă îngustă",
+        "mime1": "venă red",
+        "points": "4"
+    },
+    {
+        "draw": "fructe căzute din pom",
+        "speak": "caz serios",
+        "mime": "urticarie",
+        "draw1": "aparat radio cu ceas deșteptător",
+        "speak1": "încercare de doborâre a unui record mondial",
+        "mime1": "autobuz de noapte red",
+        "points": "4"
+    },
+    {
+        "draw": "culoar marginal",
+        "speak": "scobitură",
+        "mime": "bărbos",
+        "draw1": "viaduct red",
+        "speak1": "lampă de montaj",
+        "mime1": "intensitate a curentului",
+        "points": "4"
+    },
+    {
+        "draw": "coroană de lumină",
+        "speak": "sursă de zgomot red",
+        "mime": "buton de presiune",
+        "draw1": "lampadar",
+        "speak1": "chirurgia mâinii",
+        "mime1": "",
+        "points": "4"
+    },
+    {
+        "draw": "corp de rindea",
+        "speak": "bătaie cu pumnii",
+        "mime": "injector",
+        "draw1": "Luceafărul de Seară red",
+        "speak1": "sentimental",
+        "mime1": "furculiță pentru desert",
+        "points": "4"
+    },
+    {
+        "draw": "fier de călcat cu aburi",
+        "speak": "călău",
+        "mime": "Baba Cloanță",
+        "draw1": "prelată de protecție",
+        "speak1": "articulația gleznei red",
+        "mime1": "miop",
+        "points": "4"
+    },
+    {
+        "draw": "ață cauciucata",
+        "speak": "limitarea vitezei",
+        "mime": "scrimer",
+        "draw1": "moară de apă",
+        "speak1": "sac de fasole",
+        "mime1": "lampă de parcare red",
+        "points": "4"
+    },
+    {
+        "draw": "vultur bicefal",
+        "speak": "sticlă de siguranță",
+        "mime": "sacrificarea porcului red",
+        "draw1": "Lacul lebedelor",
+        "speak1": "atingerea țintei",
+        "mime1": "cimbal",
+        "points": "4"
+    },
+    {
+        "draw": "calin",
+        "speak": "Omul cu masca de fier",
+        "mime": "schi",
+        "draw1": "poștă cu porumbei red",
+        "speak1": "fruntaș",
+        "mime1": "bonetă de bucătar",
+        "points": "4"
+    },
+    {
+        "draw": "mătasea broaștei",
+        "speak": "republică bananieră",
+        "mime": "penurie de bani red",
+        "draw1": "grătar de canal",
+        "speak1": "pantaloni de piele",
+        "mime1": "respirație gură la gură",
+        "points": "4"
+    },
+    {
+        "draw": "coroană de lumina",
+        "speak": "sursă de zgomot red",
+        "mime": "buton de presiune",
+        "draw1": "lampadar",
+        "speak1": "chirurgia mâinii",
+        "mime1": "motocicletă",
+        "points": "4"
+    },
+    {
+        "draw": "foaie de calendar",
+        "speak": "taxă suplimentară",
+        "mime": "casă de vânătoare",
+        "draw1": "traiectorie de proiectare",
+        "speak1": "lacună judiciară red",
+        "mime1": "ulei de masaj",
+        "points": "4"
+    },
+    {
+        "draw": "macara de construcție",
+        "speak": "fermier bio red",
+        "mime": "boxeri",
+        "draw1": "mașină de umplut caltaboși",
+        "speak1": "cavaler de onoare",
+        "mime1": "partea umbrită",
+        "points": "4"
+    },
+    {
+        "draw": "Cartea junglei",
+        "speak": "pahar de cristal",
+        "mime": "sticlă goală",
+        "draw1": "colonadă red",
+        "speak1": "rol secundar",
+        "mime1": "volum sonor",
+        "points": "4"
+    },
+    {
+        "draw": "container pentru colectare de sticle",
+        "speak": "contract cadru red",
+        "mime": "epilator",
+        "draw1": "suport pentru picioare",
+        "speak1": "tarif local",
+        "mime1": "dificultate în respirație",
+        "points": "4"
+    },
+    {
+        "draw": "graniță de țară red",
+        "speak": "varză secuiască",
+        "mime": "corp ceresc",
+        "draw1": "coarne de capra",
+        "speak1": "întins pe spate",
+        "mime1": "îmbibație alcoolică în respirație",
+        "points": "4"
+    },
+    {
+        "draw": "ac pentru acupunctură red",
+        "speak": "cauciuc masiv",
+        "mime": "spălare rapidă",
+        "draw1": "Curtea de apel",
+        "speak1": "excremente de cal",
+        "mime1": "imprimare offset",
+        "points": "4"
+    },
+    {
+        "draw": "număr de dosar red",
+        "speak": "lumea spiritelor",
+        "mime": "prurit",
+        "draw1": "pelerină",
+        "speak1": "telenovelă",
+        "mime1": "inele",
+        "points": "4"
+    },
+    {
+        "draw": "formular de test",
+        "speak": "transport aerian de pasageri",
+        "mime": "draperie",
+        "draw1": "antenă parabolică",
+        "speak1": "filtru UV",
+        "mime1": "arbitru de tușa red",
+        "points": "4"
+    },
+    {
+        "draw": "veveriță",
+        "speak": "trandafir sălbatic",
+        "mime": "încălzit prin pardoseală red",
+        "draw1": "bifurcație de șosea",
+        "speak1": "dietă cu zero calorii",
+        "mime1": "rinocer",
+        "points": "4"
+    },
+    {
+        "draw": "rinoplastie red",
+        "speak": "masaj sportiv",
+        "mime": "lovitură de gong",
+        "draw1": "sac lacrimal",
+        "speak1": "conjugarea verbelor",
+        "mime1": "sucitor",
+        "points": "4"
+    },
+    {
+        "draw": "listă de băuturi",
+        "speak": "buchetul miresei",
+        "mime": "încălzitor de picioare",
+        "draw1": "acoperiș din stuf",
+        "speak1": "glazură de zahăr",
+        "mime1": "diskman red",
+        "points": "4"
+    },
+    {
+        "draw": "metropolă red",
+        "speak": "emisiune la radio",
+        "mime": "prosop",
+        "draw1": "scaun de catapultare",
+        "speak1": "supă cu găluște din ficat",
+        "mime1": "ac de cravată",
+        "points": "4"
+    },
+    {
+        "draw": "clește de tăiat sârmă",
+        "speak": "firmă mamă red",
+        "mime": "scut termic",
+        "draw1": "set de cărți",
+        "speak1": "ucenic de magician",
+        "mime1": "cuplu de îndrăgostiți",
+        "points": "4"
+    },
+    {
+        "draw": "casă părintească red",
+        "speak": "medicină internă",
+        "mime": "îndrumare",
+        "draw1": "os umeral",
+        "speak1": "premiul cel mare la loto",
+        "mime1": "kickbox",
+        "points": "4"
+    },
+    {
+        "draw": "crâșmă de marinari",
+        "speak": "timp de înjumătățire",
+        "mime": "buzunar interior",
+        "draw1": "cursă radar red",
+        "speak1": "traseu de circulație",
+        "mime1": "walkman",
+        "points": "4"
+    },
+    {
+        "draw": "elastic pentru păr",
+        "speak": "spiritul muntelui",
+        "mime": "pat extensibil",
+        "draw1": "spital militar red",
+        "speak1": "punct de topire",
+        "mime1": "cartelă perforată",
+        "points": "4"
+    },
+    {
+        "draw": "dulceață de căpșuni",
+        "speak": "cheltuieli de transport",
+        "mime": "tac",
+        "draw1": "rozetă",
+        "speak1": "album solo red",
+        "mime1": "pat rabatabil",
+        "points": "4"
+    },
+    {
+        "draw": "fabrică de bere",
+        "speak": "monstrul din poveste",
+        "mime": "iscoadă",
+        "draw1": "pată de cerneală",
+        "speak1": "sirenă de ceață red",
+        "mime1": "chipiu",
+        "points": "4"
+    },
+    {
+        "draw": "ambuteiaj",
+        "speak": "caviar",
+        "mime": "coamă de munte",
+        "draw1": "bancă de grădina red",
+        "speak1": "talent organizatoric",
+        "mime1": "cuptor cu microunde",
+        "points": "4"
+    },
+    {
+        "draw": "linguriță de cafea",
+        "speak": "sinistrat în urmă inundației",
+        "mime": "ochelarist",
+        "draw1": "pocladă",
+        "speak1": "pânză de in red",
+        "mime1": "dispozitiv de blocare a direcției",
+        "points": "4"
+    },
+    {
+        "draw": "arc de triumf",
+        "speak": "aducător de vești bune red",
+        "mime": "frunte înaltă",
+        "draw1": "oliță",
+        "speak1": "sală de spectacol",
+        "mime1": "cel ce râde la urmă",
+        "points": "4"
+    },
+    {
+        "draw": "donare de sânge",
+        "speak": "termocentrală",
+        "mime": "atatarea focului red",
+        "draw1": "nervura frunzei",
+        "speak1": "buletin hidrologic",
+        "mime1": "număr de apel",
+        "points": "4"
+    },
+    {
+        "draw": "sat de munte",
+        "speak": "bancă de date red",
+        "mime": "pantaloni cu dungă",
+        "draw1": "piele de crocodil",
+        "speak1": "file de piept de curcan",
+        "mime1": "piscină cu valuri artificiale",
+        "points": "4"
+    },
+    {
+        "draw": "căluț de mare",
+        "speak": "scoarță pământului red",
+        "mime": "epidemie de gripă",
+        "draw1": "pizzerie",
+        "speak1": "pilot de vânătoare",
+        "mime1": "disc",
+        "points": "4"
+    },
+    {
+        "draw": "vignetă pentru autostrăzi",
+        "speak": "foaie învelitoare",
+        "mime": "mâncare rece red",
+        "draw1": "cap de șurub",
+        "speak1": "ținerea adversarului",
+        "mime1": "privire retrospectivă",
+        "points": "4"
+    },
+    {
+        "draw": "fotbal de sală",
+        "speak": "hard disc",
+        "mime": "stop cardiac",
+        "draw1": "lampă de marșarier",
+        "speak1": "foc de semnalizare",
+        "mime1": "suport de candelă red",
+        "points": "4"
+    },
+    {
+        "draw": "răcitor pentru gheață",
+        "speak": "predică",
+        "mime": "dulap cu substanțe periculoase",
+        "draw1": "conifer",
+        "speak1": "aruncare la țintă",
+        "mime1": "berbec red",
+        "points": "4"
+    },
+    {
+        "draw": "os cu măduvă red",
+        "speak": "sferă privată",
+        "mime": "os coxal",
+        "draw1": "dud",
+        "speak1": "film de scurt metraj",
+        "mime1": "nasture de palton",
+        "points": "4"
+    },
+    {
+        "draw": "fereastră cu gratii",
+        "speak": "Înalta Curte de Casație și Justiție",
+        "mime": "piroman",
+        "draw1": "trăgător la țintă",
+        "speak1": "agent de sondaje de opinie",
+        "mime1": "stenodactilograf red",
+        "points": "4"
+    },
+    {
+        "draw": "cablu de electricitate",
+        "speak": "coif de cavaler",
+        "mime": "furcă de fier",
+        "draw1": "pelerină de vrăjitor red",
+        "speak1": "atelier de croitorie",
+        "mime1": "ușă glisantă",
+        "points": "4"
+    },
+    {
+        "draw": "picătură de sânge",
+        "speak": "perpetuum mobile",
+        "mime": "telespectator",
+        "draw1": "creier",
+        "speak1": "voce subțire",
+        "mime1": "cuib de castor red",
+        "points": "4"
+    },
+    {
+        "draw": "fractură de oase",
+        "speak": "miros de arsura",
+        "mime": "curea din piele",
+        "draw1": "fundul marii",
+        "speak1": "călugăr",
+        "mime1": "ciorapi elastici red",
+        "points": "4"
+    },
+    {
+        "draw": "canin",
+        "speak": "nematozi red",
+        "mime": "moarte cerebrală",
+        "draw1": "canton",
+        "speak1": "pescar",
+        "mime1": "împușcat în burtă",
+        "points": "4"
+    },
+    {
+        "draw": "ramă de ochelari red",
+        "speak": "povești de adormit copiii",
+        "mime": "țarc",
+        "draw1": "mașină cu pedale",
+        "speak1": "organizator de evenimente",
+        "mime1": "burghiu percutant de perforare",
+        "points": "4"
+    },
+    {
+        "draw": "fustă în formă de clopot",
+        "speak": "îngust la minte",
+        "mime": "tufă de trandafir",
+        "draw1": "sondă pentru urechi",
+        "speak1": "Parc Național",
+        "mime1": "puzzle red",
+        "points": "4"
+    },
+    {
+        "draw": "picior în ghips",
+        "speak": "pericol de avalanșă",
+        "mime": "sirop antitusiv red",
+        "draw1": "navă transversală în biserica",
+        "speak1": "candidat",
+        "mime1": "curent de joasă tensiune",
+        "points": "4"
+    },
+    {
+        "draw": "potcoavă de cal",
+        "speak": "copil norocos",
+        "mime": "misogin red",
+        "draw1": "spărtură de cărămidă",
+        "speak1": "apă sărată",
+        "mime1": "campion la natație",
+        "points": "4"
+    },
+    {
+        "draw": "chec cu fructe confiate",
+        "speak": "robot de bucătărie",
+        "mime": "găluște cu ouă red",
+        "draw1": "teleschi",
+        "speak1": "gheață uscată",
+        "mime1": "poezie de Paște",
+        "points": "4"
+    },
+    {
+        "draw": "cartelă de pâine",
+        "speak": "bilet pentru copii",
+        "mime": "braț de caracatiță red",
+        "draw1": "camion cu prelată",
+        "speak1": "pisică persană",
+        "mime1": "pantofi cu șireturi",
+        "points": "4"
+    },
+    {
+        "draw": "coajă de pâine",
+        "speak": "ploi în toată țară",
+        "mime": "de-a v-ați ascunselea",
+        "draw1": "participant la curse cu motociclete",
+        "speak1": "percheziție la domiciliu",
+        "mime1": "hârtie abrazivă red",
+        "points": "4"
+    },
+    {
+        "draw": "saună",
+        "speak": "amestec de condimente",
+        "mime": "patul armei red",
+        "draw1": "tub de oxigen",
+        "speak1": "schimb de păreri",
+        "mime1": "bilet de tren",
+        "points": "4"
+    },
+    {
+        "draw": "gât de girafă",
+        "speak": "șomaj",
+        "mime": "bicicletă masculină",
+        "draw1": "steag cu stele red",
+        "speak1": "aristocrat",
+        "mime1": "șuviță de par",
+        "points": "4"
+    },
+    {
+        "draw": "bidon pentru benzină",
+        "speak": "manechin pe pasarelă",
+        "mime": "medalion pentru câine red",
+        "draw1": "clește pentru homar",
+        "speak1": "marmotă",
+        "mime1": "tâlhar la drumul mare",
+        "points": "4"
+    },
+    {
+        "draw": "tobă de eșapament",
+        "speak": "doar pentru adulți",
+        "mime": "baie de aburi",
+        "draw1": "fustă lungă",
+        "speak1": "animăluț de pluș",
+        "mime1": "mănușă pentru scoaterea tăvilor din cuptor red",
+        "points": "4"
+    },
+    {
+        "draw": "picior de pod",
+        "speak": "gaz ilariant red",
+        "mime": "mască de gaze",
+        "draw1": "fosilă de scoică",
+        "speak1": "fabrică de tutun",
+        "mime1": "extinctor",
+        "points": "4"
+    },
+    {
+        "draw": "pleură",
+        "speak": "frământat de griji",
+        "mime": "creion colorat red",
+        "draw1": "bicicletă de munte",
+        "speak1": "apăsare pe tastă",
+        "mime1": "cap sec",
+        "points": "4"
+    },
+    {
+        "draw": "pictură rupestră",
+        "speak": "acțiune reconvențională red",
+        "mime": "ușă turnantă",
+        "draw1": "moarte pe rug",
+        "speak1": "visător",
+        "mime1": "coada sapei",
+        "points": "4"
+    },
+    {
+        "draw": "prune uscate",
+        "speak": "fochist",
+        "mime": "corifeu",
+        "draw1": "autotractor cu semiremorcă red",
+        "speak1": "foraj de fântână",
+        "mime1": "crampe la stomac",
+        "points": "4"
+    },
+    {
+        "draw": "dresor de animale",
+        "speak": "perdea din bambus",
+        "mime": "pudră sclipitoare red",
+        "draw1": "mouse pad",
+        "speak1": "tichie cu zurgălăi",
+        "mime1": "molar",
+        "points": "4"
+    },
+    {
+        "draw": "loc de odihnă",
+        "speak": "Podișul Dobrogei",
+        "mime": "tur de onoare red",
+        "draw1": "nas cârn",
+        "speak1": "sucursală",
+        "mime1": "mânuirea pensulei",
+        "points": "4"
+    },
+    {
+        "draw": "pui de vultur",
+        "speak": "Opera de trei parale",
+        "mime": "garanție pentru sticlă red",
+        "draw1": "mușcarea unghiei",
+        "speak1": "fus orar",
+        "mime1": "număr solo",
+        "points": "4"
+    },
+    {
+        "draw": "baobab",
+        "speak": "Coasta de Fildeș",
+        "mime": "listă de pasageri",
+        "draw1": "liliac",
+        "speak1": "dependent de muncă",
+        "mime1": "șampon anti-mătreață red",
+        "points": "4"
+    },
+    {
+        "draw": "pădure de antene",
+        "speak": "scrisoare de reclamație",
+        "mime": "molie red",
+        "draw1": "lampă de operație",
+        "speak1": "romancier",
+        "mime1": "umbre chinezești",
+        "points": "4"
+    },
+    {
+        "draw": "adunatul vreascurilor red",
+        "speak": "pată de grăsime",
+        "mime": "clipește din ochi",
+        "draw1": "suflător de sticlă",
+        "speak1": "complex de inferioritate",
+        "mime1": "poziție lotus",
+        "points": "4"
+    },
+    {
+        "draw": "rastel pentru biciclete",
+        "speak": "obiceiuri la masă",
+        "mime": "pauză de cafea red",
+        "draw1": "clanța ușii",
+        "speak1": "săgeată",
+        "mime1": "foaie de scris",
+        "points": "4"
+    },
+    {
+        "draw": "suport pentru torță red",
+        "speak": "a doua diplomă",
+        "mime": "respirație tegumentară",
+        "draw1": "fum de țigări",
+        "speak1": "bubă neagră",
+        "mime1": "făcăleț",
+        "points": "4"
+    },
+    {
+        "draw": "inundație",
+        "speak": "codice",
+        "mime": "medalie de aur red",
+        "draw1": "vagon restaurant",
+        "speak1": "energie eoliană",
+        "mime1": "soră medicală",
+        "points": "4"
+    },
+    {
+        "draw": "benă de transport",
+        "speak": "diavol",
+        "mime": "ou moale",
+        "draw1": "ceas de buzunar",
+        "speak1": "detector de minciuni red",
+        "mime1": "pantaloni de călărie",
+        "points": "4"
+    },
+    {
+        "draw": "bloc de locuințe",
+        "speak": "cartuș de cerneală",
+        "mime": "jucător de golf",
+        "draw1": "cană de lapte",
+        "speak1": "viziune asupra lumii",
+        "mime1": "insomnie red",
+        "points": "4"
+    },
+    {
+        "draw": "ghem de ață",
+        "speak": "scrisoare de garanție red",
+        "mime": "restaurant chinezesc",
+        "draw1": "balansoar",
+        "speak1": "sursă de lumina",
+        "mime1": "rană de glonț",
+        "points": "4"
+    },
+    {
+        "draw": "gălbenuș de ouă",
+        "speak": "dresură de animale",
+        "mime": "mișcare tectonică",
+        "draw1": "parc safari red",
+        "speak1": "anatomie",
+        "mime1": "storcătoare de lămâi",
+        "points": "4"
+    },
+    {
+        "draw": "cursă cu rable red",
+        "speak": "sistem Home Cinema",
+        "mime": "pernă de puf",
+        "draw1": "șine de tramvai",
+        "speak1": "nedureros",
+        "mime1": "plasator",
+        "points": "4"
+    },
+    {
+        "draw": "canapea extensibilă red",
+        "speak": "marfă defectă",
+        "mime": "disc jockey",
+        "draw1": "bombă fumigenă",
+        "speak1": "turmă de capre",
+        "mime1": "pistolar",
+        "points": "4"
+    },
+    {
+        "draw": "bombă plasată sub mașină",
+        "speak": "mașină de tras lumânări",
+        "mime": "pișcătură de purice",
+        "draw1": "delfin cu bot gros red",
+        "speak1": "pompă",
+        "mime1": "șiștar de muls",
+        "points": "4"
+    },
+    {
+        "draw": "salon de coafură",
+        "speak": "echinoctiu",
+        "mime": "jambieră",
+        "draw1": "ghirlandă luminoasă pentru pomul de crăciun",
+        "speak1": "supliment de weekend red",
+        "mime1": "spumă de ras",
+        "points": "4"
+    },
+    {
+        "draw": "mecanic auto",
+        "speak": "concert pentru vioară",
+        "mime": "mixer manual red",
+        "draw1": "geantă de plajă",
+        "speak1": "camarad",
+        "mime1": "plasă de prins fluturi",
+        "points": "4"
+    },
+    {
+        "draw": "hotel de cinci stele",
+        "speak": "cuib de cuci",
+        "mime": "poartă de garaj",
+        "draw1": "scrisoare de dragoste red",
+        "speak1": "piesă de teatru",
+        "mime1": "concert rock",
+        "points": "4"
+    },
+    {
+        "draw": "cerc familial",
+        "speak": "închiriere de ambarcațiuni",
+        "mime": "festivalul berii red",
+        "draw1": "limbă de pantof",
+        "speak1": "portar de noapte",
+        "mime1": "suc de vișine",
+        "points": "4"
+    },
+    {
+        "draw": "cărucior",
+        "speak": "scutit de taxa de școlarizare",
+        "mime": "nud artistic",
+        "draw1": "cutie de chibrituri",
+        "speak1": "cârnați bavarezi red",
+        "mime1": "înlăcrimat",
+        "points": "4"
+    },
+    {
+        "draw": "cărturar",
+        "speak": "scriere cuneiformă",
+        "mime": "nivel de alcoolemie",
+        "draw1": "mortieră",
+        "speak1": "cochilie",
+        "mime1": "plasă de sârmă red",
+        "points": "4"
+    },
+    {
+        "draw": "faianță",
+        "speak": "ștrengărie",
+        "mime": "venerarea focului",
+        "draw1": "papagal pigmeu red",
+        "speak1": "listă cu hituri",
+        "mime1": "cremă pentru cearcăne",
+        "points": "4"
+    },
+    {
+        "draw": "ciorbă de pește",
+        "speak": "război între găști",
+        "mime": "sistem de scriere pentru nevăzători",
+        "draw1": "baraj din saci de nisip",
+        "speak1": "luptă electorală red",
+        "mime1": "foc încrucișat",
+        "points": "4"
+    },
+    {
+        "draw": "motor de barcă",
+        "speak": "ciorbă de urzici",
+        "mime": "duș reconfortant red",
+        "draw1": "geantă de voiaj",
+        "speak1": "videojurnal",
+        "mime1": "legitimație de biblioteca",
+        "points": "4"
+    },
+    {
+        "draw": "carlingă",
+        "speak": "factură mare",
+        "mime": "altimertu",
+        "draw1": "perspectivă aeriană red",
+        "speak1": "scoritsoara",
+        "mime1": "cramă",
+        "points": "4"
+    },
+    {
+        "draw": "rețea de canalziare",
+        "speak": "turneu de spectacole",
+        "mime": "mâner",
+        "draw1": "cuc terestru nord-american red",
+        "speak1": "florăreasa",
+        "mime1": "cuptor de pizza",
+        "points": "4"
+    },
+    {
+        "draw": "logodnici",
+        "speak": "persoană turbulentă",
+        "mime": "atinge mingea cu mâna",
+        "draw1": "jupon",
+        "speak1": "gărgăriță red",
+        "mime1": "hibernare",
+        "points": "4"
+    },
+    {
+        "draw": "cârlig de remorcare",
+        "speak": "simulator de zbor",
+        "mime": "om cu inima caldă",
+        "draw1": "dinozaur",
+        "speak1": "salată de varză",
+        "mime1": "forță gravitațională red",
+        "points": "4"
+    },
+    {
+        "draw": "oviduct red",
+        "speak": "mediu înconjurător",
+        "mime": "pantofi de damă",
+        "draw1": "fustă scoțiană",
+        "speak1": "funcție publică",
+        "mime1": "piscină jacuzzi",
+        "points": "4"
+    },
+    {
+        "draw": "tort pentru onomastică",
+        "speak": "dietă de infoemtare",
+        "mime": "pușcă mitralieră",
+        "draw1": "papuci de casă ",
+        "speak1": "schimbarea vocii la adolescenți",
+        "mime1": "furcă de gunoi red",
+        "points": "4"
+    },
+    {
+        "draw": "linie de navigație red",
+        "speak": "briliant",
+        "mime": "cârlig",
+        "draw1": "fum de pipă",
+        "speak1": "schimb de mărfuri",
+        "mime1": "chila bărcii",
+        "points": "4"
+    },
+    {
+        "draw": "banchetă de barcă",
+        "speak": "salată de legume",
+        "mime": "linie de foc",
+        "draw1": "harta străzilor",
+        "speak1": "apă medicinală",
+        "mime1": "regenator de aer red",
+        "points": "4"
+    },
+    {
+        "draw": "pantofi cu cuie",
+        "speak": "record de vizitatori",
+        "mime": "peșteră de gheață red",
+        "draw1": "tunsul oilor",
+        "speak1": "moluște",
+        "mime1": "echipament de tenis",
+        "points": "4"
+    },
+    {
+        "draw": "nor de aburi red",
+        "speak": "reporter sportiv",
+        "mime": "gardă personală",
+        "draw1": "muzicuță",
+        "speak1": "gingivoragie",
+        "mime1": "măsuță de machiaj",
+        "points": "4"
+    },
+    {
+        "draw": "admonestare red",
+        "speak": "zahăr vanilat",
+        "mime": "înot stil delfin",
+        "draw1": "manechin",
+        "speak1": "disc solar",
+        "mime1": "bandă de ocolire",
+        "points": "4"
+    },
+    {
+        "draw": "spărgător de gheață",
+        "speak": "rețea de sârmă red",
+        "mime": "manifest",
+        "draw1": "cuibarrire",
+        "speak1": "vaccin oral",
+        "mime1": "suprafața marii",
+        "points": "4"
+    },
+    {
+        "draw": "floare de măr",
+        "speak": "preot sărac",
+        "mime": "covor de baie",
+        "draw1": "vas capilar",
+        "speak1": "lac de șlefuit",
+        "mime1": "ghicit în palme red",
+        "points": "4"
+    },
+    {
+        "draw": "punte spate red",
+        "speak": "bob de piper",
+        "mime": "dictafon",
+        "draw1": "timonă",
+        "speak1": "prepelicar",
+        "mime1": "rundă",
+        "points": "4"
+    },
+    {
+        "draw": "celulită red",
+        "speak": "autoadulatie",
+        "mime": "transpirație rece",
+        "draw1": "labe de înot",
+        "speak1": "regulament intern",
+        "mime1": "aparat de ras de unică folosință",
+        "points": "4"
+    },
+    {
+        "draw": "apă de spălat vase",
+        "speak": "demaror automat",
+        "mime": "snacks-uri",
+        "draw1": "pasăre migratoare",
+        "speak1": "tragere de funie",
+        "mime1": "lacăt red",
+        "points": "4"
+    },
+    {
+        "draw": "tejghea de bar",
+        "speak": "vrăbioară",
+        "mime": "mucoasă red",
+        "draw1": "cuib de pasăre",
+        "speak1": "cârpă de șters pe jos",
+        "mime1": "aparat de curățat covoare",
+        "points": "4"
+    },
+    {
+        "draw": "vas de fondue",
+        "speak": "alezaj",
+        "mime": "strigăt după ajutor red",
+        "draw1": "machetă de tren",
+        "speak1": "lapte de vacă",
+        "mime1": "masă de poker",
+        "points": "4"
+    },
+    {
+        "draw": "plantă carnivoră",
+        "speak": "buton de înregistrare",
+        "mime": "cabină de probă",
+        "draw1": "troiene de zăpadă",
+        "speak1": "creșterea animalelor",
+        "mime1": "lichid de frână red",
+        "points": "4"
+    },
+    {
+        "draw": "vagon de marfă",
+        "speak": "vezica biliară",
+        "mime": "lanțuri la picioare",
+        "draw1": "picioare ca scobitoarele",
+        "speak1": "uzufruct red",
+        "mime1": "mânerul sabiei",
+        "points": "4"
+    },
+    {
+        "draw": "stup de albine",
+        "speak": "poligon",
+        "mime": "binoclu",
+        "draw1": "regina zăpezii",
+        "speak1": "luciu de buze",
+        "mime1": "formă conică red",
+        "points": "4"
+    },
+    {
+        "draw": "coardă de pian",
+        "speak": "alarmă de bombă",
+        "mime": "cunună de spini red",
+        "draw1": "regiune muntoasă",
+        "speak1": "de domeniul viitorului",
+        "mime1": "pantofi din piele",
+        "points": "4"
+    },
+    {
+        "draw": "aperitiv pentru bere",
+        "speak": "părăsirea bisericii",
+        "mime": "braț de fotoliu",
+        "draw1": "balenă ucigașă",
+        "speak1": "observator astronomic",
+        "mime1": "bilă de popice red",
+        "points": "3"
+    },
+    {
+        "draw": "unele de grădinar",
+        "speak": "autobiografie",
+        "mime": "servodirecție red",
+        "draw1": "linie moartă",
+        "speak1": "petale de flori",
+        "mime1": "bandă pentru mașînă de scris",
+        "points": "3"
+    },
+    {
+        "draw": "groapă provocată de bombă",
+        "speak": "ani de serviciu red",
+        "mime": "salut",
+        "draw1": "frunză de viță de vie",
+        "speak1": "jargon",
+        "mime1": "microbist",
+        "points": "3"
+    },
+    {
+        "draw": "reazem de biciclete",
+        "speak": "școală serală",
+        "mime": "sporturi de iarnă red",
+        "draw1": "jartieră de pantalon",
+        "speak1": "șipcă ornamentală",
+        "mime1": "fabrică de ciorapi",
+        "points": "3"
+    },
+    {
+        "draw": "trăsătură a fetei",
+        "speak": "alergător de cursa lungă",
+        "mime": "privire aruncată lateral",
+        "draw1": "apogeu",
+        "speak1": "bandă izolatoare",
+        "mime1": "gheață red",
+        "points": "3"
+    },
+    {
+        "draw": "copită",
+        "speak": "vrăbioară de vacă",
+        "mime": "vânzător la benzinărie red",
+        "draw1": "polo",
+        "speak1": "medic radiolog",
+        "mime1": "loțiune de protecție solară",
+        "points": "3"
+    },
+    {
+        "draw": "pârâu de munte",
+        "speak": "automobil de ocazie",
+        "mime": "cretă pentru tablă red",
+        "draw1": "burete expandat",
+        "speak1": "incendiu de miriște",
+        "mime1": "foarfece de tuns gardul viu",
+        "points": "3"
+    },
+    {
+        "draw": "cuțit de tăiat pâine",
+        "speak": "felie de ananas red",
+        "mime": "picături oftalmice",
+        "draw1": "coardă de siguranță",
+        "speak1": "copil orfan",
+        "mime1": "lungimea nasului",
+        "points": "3"
+    },
+    {
+        "draw": "antenă TV",
+        "speak": "călătorie cu avionul",
+        "mime": "număr la încălțăminte",
+        "draw1": "sacoșă",
+        "speak1": "arșiță tropicală",
+        "mime1": "foaie de carton red",
+        "points": "3"
+    },
+    {
+        "draw": "troliu",
+        "speak": "expediție",
+        "mime": "compresă rece",
+        "draw1": "formă aerodinamică red",
+        "speak1": "șervețel textil",
+        "mime1": "fanfară militară",
+        "points": "3"
+    },
+    {
+        "draw": "zahăr tos red",
+        "speak": "neglijență",
+        "mime": "linie aeriană",
+        "draw1": "coarne de cerb cu ramificație mare",
+        "speak1": "vânzător de ziare",
+        "mime1": "cățărare pe stâncă",
+        "points": "3"
+    },
+    {
+        "draw": "banderolă",
+        "speak": "momeală pentru pești",
+        "mime": "săritor cu prăjina",
+        "draw1": "piele de șarpe",
+        "speak1": "videoclip",
+        "mime1": "fidea red",
+        "points": "3"
+    },
+    {
+        "draw": "jet de apă",
+        "speak": "predică morală",
+        "mime": "orizontal",
+        "draw1": "umbrelă de soare",
+        "speak1": "jumătate de măsură red",
+        "mime1": "percheziție corporală",
+        "points": "3"
+    },
+    {
+        "draw": "vânzător de lozuri",
+        "speak": "misiune de patrulare",
+        "mime": "înălțimea vârfului",
+        "draw1": "melc fără casă",
+        "speak1": "determinare",
+        "mime1": "pronunțarea sentinței red",
+        "points": "3"
+    },
+    {
+        "draw": "pedală de frână",
+        "speak": "vizită fulger",
+        "mime": "boală de piele red",
+        "draw1": "ibovnic",
+        "speak1": "denigrare",
+        "mime1": "a se așeza pe vine",
+        "points": "3"
+    },
+    {
+        "draw": "platformă petrolieră maritimă",
+        "speak": "alter ego red",
+        "mime": "zaharniță",
+        "draw1": "ventil de aer pentru pneuri",
+        "speak1": "antrenament",
+        "mime1": "zăvor",
+        "points": "3"
+    },
+    {
+        "draw": "păianjen din cauciuc",
+        "speak": "Business Class red",
+        "mime": "punct dureros",
+        "draw1": "clabuc",
+        "speak1": "ecografie",
+        "mime1": "casetă video",
+        "points": "3"
+    },
+    {
+        "draw": "cutie poștală",
+        "speak": "pierdere de date",
+        "mime": "virtuoz al viorii red",
+        "draw1": "colț în camera",
+        "speak1": "rondele de sardine",
+        "mime1": "pat supraetajat",
+        "points": "3"
+    },
+    {
+        "draw": "casă cu grădină",
+        "speak": "ceai cu gheață",
+        "mime": "caricatură red",
+        "draw1": "personaj-cheie",
+        "speak1": "reducerea prețului",
+        "mime1": "autostopist",
+        "points": "3"
+    },
+    {
+        "draw": "vegetații adenoide",
+        "speak": "bal mascat",
+        "mime": "dansator de performanță",
+        "draw1": "cercel",
+        "speak1": "Partidul Verde red",
+        "mime1": "braț lateral al râului",
+        "points": "3"
+    },
+    {
+        "draw": "cozoroc",
+        "speak": "contabil",
+        "mime": "bilet de parcare",
+        "draw1": "capcane anti-tanc",
+        "speak1": "balenă",
+        "mime1": "botez red",
+        "points": "3"
+    },
+    {
+        "draw": "denivelare",
+        "speak": "neimplicat",
+        "mime": "lăcomie red",
+        "draw1": "cerul gurii",
+        "speak1": "medic de urgență",
+        "mime1": "întrerupător automat",
+        "points": "3"
+    },
+    {
+        "draw": "meci de fotbal",
+        "speak": "legătură aeriană",
+        "mime": "halterofil",
+        "draw1": "farfurie",
+        "speak1": "fotografie de buletin",
+        "mime1": "masă de înfășat red",
+        "points": "3"
+    },
+    {
+        "draw": "păr pe piept",
+        "speak": "job de vacanță",
+        "mime": "venin de șarpe",
+        "draw1": "samovar",
+        "speak1": "nașterea copilului",
+        "mime1": "rugăciune la masă red",
+        "points": "3"
+    },
+    {
+        "draw": "rozetă stropitoare",
+        "speak": "mobilă de bucătărie incorporată",
+        "mime": "frisbee",
+        "draw1": "volieră",
+        "speak1": "prezentator",
+        "mime1": "jucător de poker red",
+        "points": "3"
+    },
+    {
+        "draw": "ceas electric",
+        "speak": "prințul din basme",
+        "mime": "mașină de tipar adânc",
+        "draw1": "sanie trasă de câini",
+        "speak1": "agenție de voiaj",
+        "mime1": "comutator electric red",
+        "points": "3"
+    },
+    {
+        "draw": "nor de aversă",
+        "speak": "orez cu lapte",
+        "mime": "păr cu mătreață",
+        "draw1": "stâlp electric",
+        "speak1": "maree înaltă red",
+        "mime1": "prezervativ",
+        "points": "3"
+    },
+    {
+        "draw": "Golgota red",
+        "speak": "miezul verii",
+        "mime": "bătaie cu cuțite",
+        "draw1": "bornă kilometrică",
+        "speak1": "sucursală bancară",
+        "mime1": "spălare de bani",
+        "points": "3"
+    },
+    {
+        "draw": "picior de iepure",
+        "speak": "pălărie de pâslă",
+        "mime": "pireu de cartofi red",
+        "draw1": "pată de ulei",
+        "speak1": "tată cu inima de piatră",
+        "mime1": "baie la picioare",
+        "points": "3"
+    },
+    {
+        "draw": "cască de baie",
+        "speak": "gravitație",
+        "mime": "baschetbal",
+        "draw1": "țeavă de calorifer",
+        "speak1": "bijuterie",
+        "mime1": "tulburări de ritm cardiac red",
+        "points": "3"
+    },
+    {
+        "draw": "canonieră red",
+        "speak": "arest la domiciliu",
+        "mime": "aruncarea greutății",
+        "draw1": "bloc de start",
+        "speak1": "învățământ obligatoriu",
+        "mime1": "femur",
+        "points": "3"
+    },
+    {
+        "draw": "ac de injecție",
+        "speak": "pseudonim de artist",
+        "mime": "bilet valabil pe o linie",
+        "draw1": "concurs de orientare în pădure red",
+        "speak1": "oraș de provincie",
+        "mime1": "coloană de fum",
+        "points": "3"
+    },
+    {
+        "draw": "ciupercă atomică",
+        "speak": "unt de masă",
+        "mime": "barbă artificială",
+        "draw1": "scaunul din față",
+        "speak1": "bunăstare",
+        "mime1": "bridă pentru țevi red",
+        "points": "3"
+    },
+    {
+        "draw": "penitenciar red",
+        "speak": "situație de criză",
+        "mime": "film de acțiune",
+        "draw1": "gură de vărsare a răului",
+        "speak1": "pragul iernii",
+        "mime1": "pantaloni morcov",
+        "points": "3"
+    },
+    {
+        "draw": "cățel de companie",
+        "speak": "piesă de schimb",
+        "mime": "asistență rutieră red",
+        "draw1": "tăierea arborilor",
+        "speak1": "știri rutiere",
+        "mime1": "felie de lămâie",
+        "points": "3"
+    },
+    {
+        "draw": "filtru de țigară",
+        "speak": "program de cinema",
+        "mime": "perie de curățat jaluzelele red",
+        "draw1": "clar de lună",
+        "speak1": "listă de dorințe",
+        "mime1": "parâmă",
+        "points": "3"
+    },
+    {
+        "draw": "apărătoare de noroi",
+        "speak": "asigurare de incendiu",
+        "mime": "cameră video",
+        "draw1": "coș de baschet",
+        "speak1": "conferință de presă",
+        "mime1": "mic dejun cu șampanie red",
+        "points": "3"
+    },
+    {
+        "draw": "sabot din lemn",
+        "speak": "generator electric",
+        "mime": "tăietor de lemne",
+        "draw1": "lanț de bicicletă",
+        "speak1": "poreclă red",
+        "mime1": "cireș",
+        "points": "3"
+    },
+    {
+        "draw": "casă scărilor",
+        "speak": "groapă de gunoi",
+        "mime": "tobogan de gunoi",
+        "draw1": "fermă de struți red",
+        "speak1": "caligrafie",
+        "mime1": "cântec de leagăn",
+        "points": "3"
+    },
+    {
+        "draw": "avion de salvare red",
+        "speak": "articol de lux",
+        "mime": "dosul palmei",
+        "draw1": "cameră de păpuși",
+        "speak1": "vată de sticlă",
+        "mime1": "mașină de spălat",
+        "points": "3"
+    },
+    {
+        "draw": "lampă de tavan",
+        "speak": "film de epocă",
+        "mime": "oțet de mere red",
+        "draw1": "lumina stelelor",
+        "speak1": "rezultatele alegerilor electorale",
+        "mime1": "lățime în șolduri",
+        "points": "3"
+    },
+    {
+        "draw": "vârful degetului",
+        "speak": "cuvânt de comandă",
+        "mime": "acordare de ajutor red",
+        "draw1": "găleată pentru gheață",
+        "speak1": "mătușă",
+        "mime1": "minge de tenis",
+        "points": "3"
+    },
+    {
+        "draw": "consolă TV",
+        "speak": "comoție cerebrală",
+        "mime": "magazin red",
+        "draw1": "pistă de schi",
+        "speak1": "câine de preerie",
+        "mime1": "ciclist",
+        "points": "3"
+    },
+    {
+        "draw": "ladă frigorifică",
+        "speak": "scarabeu",
+        "mime": "zgârcit red",
+        "draw1": "perdea de dus",
+        "speak1": "libertatea poporului",
+        "mime1": "pistol pentru piercing",
+        "points": "3"
+    },
+    {
+        "draw": "masă extensibilă",
+        "speak": "ciclul fazelor lunii",
+        "mime": "frână de picior red",
+        "draw1": "ierbivor",
+        "speak1": "păcat capital",
+        "mime1": "gimnastică de înviorare",
+        "points": "3"
+    },
+    {
+        "draw": "pălăria șarpelui",
+        "speak": "instalație de climatizare",
+        "mime": "brichetă red",
+        "draw1": "scaun pliabil",
+        "speak1": "apă de izvor",
+        "mime1": "podul nasului",
+        "points": "3"
+    },
+    {
+        "draw": "catarg red",
+        "speak": "istoriograf al teatrului",
+        "mime": "apă de gură",
+        "draw1": "minge de plajă",
+        "speak1": "complex rezidențial",
+        "mime1": "bibilică",
+        "points": "3"
+    },
+    {
+        "draw": "hublou",
+        "speak": "meningită",
+        "mime": "acordarea pianului",
+        "draw1": "bronhiole red",
+        "speak1": "nucă de cocos",
+        "mime1": "secretul corespondenței",
+        "points": "3"
+    },
+    {
+        "draw": "punct de vedere",
+        "speak": "demonstratrie pentru pace",
+        "mime": "păduche de cap red",
+        "draw1": "ramuris",
+        "speak1": "minciunică",
+        "mime1": "gene artificiale",
+        "points": "3"
+    },
+    {
+        "draw": "meci de box",
+        "speak": "tradiționalist red",
+        "mime": "exerciții pentru mușchi",
+        "draw1": "harnașament",
+        "speak1": "parc de distracție",
+        "mime1": "locomotivă de manevră",
+        "points": "3"
+    },
+    {
+        "draw": "vas din lut",
+        "speak": "vorbă mincinoasă",
+        "mime": "cântăreț de șlagăre red",
+        "draw1": "nară",
+        "speak1": "mielușel",
+        "mime1": "ziarist",
+        "points": "3"
+    },
+    {
+        "draw": "pulpă de pui",
+        "speak": "față palidă",
+        "mime": "bărbie dublă",
+        "draw1": "coadă de porc",
+        "speak1": "storcător de fructe red",
+        "mime1": "coardă",
+        "points": "3"
+    },
+    {
+        "draw": "traseul furnicilor red",
+        "speak": "fragment",
+        "mime": "bară",
+        "draw1": "buza superiaora",
+        "speak1": "calvar",
+        "mime1": "baie turcească",
+        "points": "3"
+    },
+    {
+        "draw": "fasole pestriță",
+        "speak": "nivel de colesterol",
+        "mime": "podoabă capilară",
+        "draw1": "O.Z.N",
+        "speak1": "burniță",
+        "mime1": "pasiență red",
+        "points": "3"
+    },
+    {
+        "draw": "scaun cu rotile",
+        "speak": "cartea clienților red",
+        "mime": "ora de religie",
+        "draw1": "mașină sport",
+        "speak1": "taxă de participare",
+        "mime1": "operator",
+        "points": "3"
+    },
+    {
+        "draw": "vânătoare de cerbi",
+        "speak": "barcă cu cinci vâsle",
+        "mime": "pedală de accelerație",
+        "draw1": "panou de reclamă",
+        "speak1": "catastrofă naturală",
+        "mime1": "comutator basculant red",
+        "points": "3"
+    },
+    {
+        "draw": "bancnotă",
+        "speak": "banc cu blonde",
+        "mime": "gușa porumbelului",
+        "draw1": "avertisment",
+        "speak1": "Arca lui Noe",
+        "mime1": "seceră red",
+        "points": "3"
+    },
+    {
+        "draw": "pahar pentru vin",
+        "speak": "plantă furajeră",
+        "mime": "caiet de matematică red",
+        "draw1": "cheie de roți",
+        "speak1": "ziar",
+        "mime1": "pahar de hârtie",
+        "points": "3"
+    },
+    {
+        "draw": "antipiretic",
+        "speak": "cursă internă",
+        "mime": "tenor red",
+        "draw1": "camion frigorific",
+        "speak1": "repartizarea timpului",
+        "mime1": "aruncarea monedei",
+        "points": "3"
+    },
+    {
+        "draw": "bobină de film",
+        "speak": "achiziționarea de mărfuri",
+        "mime": "joc de echipă red",
+        "draw1": "a se parui",
+        "speak1": "mită",
+        "mime1": "mini-casetofon portabil",
+        "points": "3"
+    },
+    {
+        "draw": "șoarece de câmp",
+        "speak": "Curentul Golfului",
+        "mime": "bentiță pentru păr",
+        "draw1": "meteorit red",
+        "speak1": "trezorerie",
+        "mime1": "fermoar",
+        "points": "3"
+    },
+    {
+        "draw": "hot dog",
+        "speak": "tratement de dezintoxicare red",
+        "mime": "pulverizator pentru flori",
+        "draw1": "puțul ascensorului",
+        "speak1": "bandă de tâlhari",
+        "mime1": "coș de gunoi",
+        "points": "3"
+    },
+    {
+        "draw": "mocăniță",
+        "speak": "extras de cont",
+        "mime": "vizor",
+        "draw1": "cizme lungi",
+        "speak1": "revistă pentru femei red",
+        "mime1": "sughiț",
+        "points": "3"
+    },
+    {
+        "draw": "cheie pentru bujii",
+        "speak": "pod aerian",
+        "mime": "reședință",
+        "draw1": "mare maestru la șah red",
+        "speak1": "operă de artă",
+        "mime1": "crampe musculare la pulpa piciorului",
+        "points": "3"
+    },
+    {
+        "draw": "balcon",
+        "speak": "suflantă de aer cald",
+        "mime": "intrare principală red",
+        "draw1": "înfășurare în ghem",
+        "speak1": "pășune pentru vite",
+        "mime1": "verso",
+        "points": "3"
+    },
+    {
+        "draw": "pălărie cu pană",
+        "speak": "festival",
+        "mime": "pistol de tăiat",
+        "draw1": "floare de câmp red",
+        "speak1": "spectacol de gală",
+        "mime1": "cremă de protecție solară",
+        "points": "3"
+    },
+    {
+        "draw": "poliță pentru pălării",
+        "speak": "libertatea credinței",
+        "mime": "ușă pliantă red",
+        "draw1": "falcă",
+        "speak1": "epoca de piatră",
+        "mime1": "pahar cu picior",
+        "points": "3"
+    },
+    {
+        "draw": "lagună",
+        "speak": "diafilm",
+        "mime": "cafea cu gheață",
+        "draw1": "linie ferată industrială red",
+        "speak1": "izmă bună",
+        "mime1": "cremă pentru mâini",
+        "points": "3"
+    },
+    {
+        "draw": "baterea de monezi",
+        "speak": "gardă",
+        "mime": "fereastră rabatabilă red",
+        "draw1": "cutie de încălțăminte",
+        "speak1": "rumegător",
+        "mime1": "bulgăre de zăpadă",
+        "points": "3"
+    },
+    {
+        "draw": "sanie trasă de cai",
+        "speak": "debara",
+        "mime": "masă de biliard",
+        "draw1": "trunchi de copac",
+        "speak1": "agenție de publicitate",
+        "mime1": "schiuri speciale pentru sărituri red",
+        "points": "3"
+    },
+    {
+        "draw": "ușă de sticlă",
+        "speak": "antrenament de înot",
+        "mime": "permis de conducere red",
+        "draw1": "indicator pentru circulația rutieră",
+        "speak1": "timp intermediar",
+        "mime1": "ambreiaj",
+        "points": "3"
+    },
+    {
+        "draw": "ac de pickup",
+        "speak": "piatră brută red",
+        "mime": "virtuoz al chitarei",
+        "draw1": "buldozer",
+        "speak1": "examen de admitere",
+        "mime1": "croazieră",
+        "points": "3"
+    },
+    {
+        "draw": "ciolan de porc",
+        "speak": "nostalgie",
+        "mime": "oală sub presiune red",
+        "draw1": "cuboid",
+        "speak1": "filtru de lumină",
+        "mime1": "epilepsie",
+        "points": "3"
+    },
+    {
+        "draw": "branț",
+        "speak": "sezon",
+        "mime": "coajă de lămâie red",
+        "draw1": "rezematoare de braț",
+        "speak1": "rigolă",
+        "mime1": "lopată pentru deszăpezire",
+        "points": "3"
+    },
+    {
+        "draw": "chelie",
+        "speak": "bijuterii pentru corp",
+        "mime": "supă de ceapă",
+        "draw1": "zebră",
+        "speak1": "indemnizație de boală",
+        "mime1": "parapantă red",
+        "points": "3"
+    },
+    {
+        "draw": "plăcintă cu mere",
+        "speak": "reclamă luminoasă",
+        "mime": "punct slab",
+        "draw1": "floare în ghiveci",
+        "speak1": "bar de salate",
+        "mime1": "grup sanitar red",
+        "points": "3"
+    },
+    {
+        "draw": "foaie de temperatură",
+        "speak": "lapte proaspăt",
+        "mime": "tub capilar red",
+        "draw1": "roată de sprijin",
+        "speak1": "limită de viteză",
+        "mime1": "hăț",
+        "points": "3"
+    },
+    {
+        "draw": "iepure de câmp red",
+        "speak": "program la cerere",
+        "mime": "canoe indian",
+        "draw1": "cruce de vizare",
+        "speak1": "cămară cu provizii",
+        "mime1": "rană la cap",
+        "points": "3"
+    },
+    {
+        "draw": "aplică de perete",
+        "speak": "apertivi",
+        "mime": "copiere de chei",
+        "draw1": "bilă de sticlă",
+        "speak1": "serviciu militar obligratoriu red",
+        "mime1": "reconstituire",
+        "points": "3"
+    },
+    {
+        "draw": "tort de nuntă",
+        "speak": "trecerea unui front atmosferic",
+        "mime": "lipitoare",
+        "draw1": "răsărit de soare red",
+        "speak1": "ropot de arme de foc",
+        "mime1": "ședință de spiritism",
+        "points": "3"
+    },
+    {
+        "draw": "nava pe pernă de aer",
+        "speak": "răzătoare de cașcaval",
+        "mime": "dodgem",
+        "draw1": "troleibuz",
+        "speak1": "rochiță de vară",
+        "mime1": "extragere la loto red",
+        "points": "3"
+    },
+    {
+        "draw": "tetieră",
+        "speak": "fulgi de ovăz",
+        "mime": "parte adăpostită de vânt",
+        "draw1": "știrbitură red",
+        "speak1": "recuzită",
+        "mime1": "masaj",
+        "points": "3"
+    },
+    {
+        "draw": "hemogramă",
+        "speak": "detenție",
+        "mime": "cină cu șampanie",
+        "draw1": "fard de pleoape",
+        "speak1": "anemie red",
+        "mime1": "listă de cumpărături",
+        "points": "3"
+    },
+    {
+        "draw": "as de inimă",
+        "speak": "convorbire la telefonul mobil",
+        "mime": "arbaletă",
+        "draw1": "pană de pasăre",
+        "speak1": "coardă vocală",
+        "mime1": "pat de balast red",
+        "points": "3"
+    },
+    {
+        "draw": "gabie",
+        "speak": "pierdere de memorie",
+        "mime": "ambalaj multiplu red",
+        "draw1": "incheietoare pentru lănțișor",
+        "speak1": "traficant de persoane",
+        "mime1": "bețișor de chibrit",
+        "points": "3"
+    },
+    {
+        "draw": "teren de golf",
+        "speak": "taxă de reutilizare",
+        "mime": "foarfece de grădină red",
+        "draw1": "cascadă",
+        "speak1": "faună",
+        "mime1": "crampă musculară",
+        "points": "3"
+    },
+    {
+        "draw": "bidinea",
+        "speak": "reducere de prețuri",
+        "mime": "obturație red",
+        "draw1": "fisură de țeavă",
+        "speak1": "ciubuc",
+        "mime1": "pictură murală",
+        "points": "3"
+    },
+    {
+        "draw": "plită",
+        "speak": "mineralogie",
+        "mime": "panică",
+        "draw1": "navă maritimă",
+        "speak1": "mucegai nobil red",
+        "mime1": "chibrit",
+        "points": "3"
+    },
+    {
+        "draw": "cutie de bere",
+        "speak": "marfă de mercerie",
+        "mime": "casă de marcat",
+        "draw1": "ușă batantă",
+        "speak1": "banc de nisip red",
+        "mime1": "pantaloni de pijama",
+        "points": "3"
+    },
+    {
+        "draw": "loc de pândă",
+        "speak": "factură storno",
+        "mime": "temperatura apei red",
+        "draw1": "topografie",
+        "speak1": "raliu safari",
+        "mime1": "flori tăiate",
+        "points": "3"
+    },
+    {
+        "draw": "clipă red",
+        "speak": "piața materialelor de construcție",
+        "mime": "scutec de unică folosință",
+        "draw1": "opritor la geam",
+        "speak1": "yoga",
+        "mime1": "somnifer",
+        "points": "3"
+    },
+    {
+        "draw": "mobilă din trestie",
+        "speak": "aventură amoroasă",
+        "mime": "cod barat",
+        "draw1": "brancardier",
+        "speak1": "aluniță",
+        "mime1": "idee proastă red",
+        "points": "3"
+    },
+    {
+        "draw": "măsuță de cafea",
+        "speak": "comunicat de presă",
+        "mime": "o clipită red",
+        "draw1": "centură de siguranță",
+        "speak1": "gazelă",
+        "mime1": "sac pentru gimnastică",
+        "points": "3"
+    },
+    {
+        "draw": "pastă de dinți",
+        "speak": "facultate",
+        "mime": "încălzire",
+        "draw1": "omul păianjen",
+        "speak1": "control de calitate red",
+        "mime1": "vestă pentru înot",
+        "points": "3"
+    },
+    {
+        "draw": "clădire înaltă",
+        "speak": "adaos comercial",
+        "mime": "mușcătură",
+        "draw1": "pernă decorativă red",
+        "speak1": "agricultură",
+        "mime1": "cuțit rabatabil",
+        "points": "3"
+    },
+    {
+        "draw": "polen",
+        "speak": "invitație la nuntă",
+        "mime": "mic dejun",
+        "draw1": "cordon de jandarmi red",
+        "speak1": "superstiție",
+        "mime1": "inel de șervețel",
+        "points": "3"
+    },
+    {
+        "draw": "funicular",
+        "speak": "ploaie de primăvară",
+        "mime": "medicament lichid",
+        "draw1": "semafor red",
+        "speak1": "bursuc",
+        "mime1": "santinelă",
+        "points": "3"
+    },
+    {
+        "draw": "bicicletă pentru femei",
+        "speak": "as de pică",
+        "mime": "spray împotriva țânțarilor red",
+        "draw1": "mustață",
+        "speak1": "suprafață",
+        "mime1": "toc de pantof",
+        "points": "3"
+    },
+    {
+        "draw": "camping",
+        "speak": "jucător de rezervă ",
+        "mime": "tuberculoză red",
+        "draw1": "mașină de scris",
+        "speak1": "Armata Salvării",
+        "mime1": "pungășie",
+        "points": "3"
+    },
+    {
+        "draw": "lovitură de pedeapsă",
+        "speak": "a agasa",
+        "mime": "inel anual la copac red",
+        "draw1": "bordură de trotuar",
+        "speak1": "supervedetă",
+        "mime1": "lentilă de contact",
+        "points": "3"
+    },
+    {
+        "draw": "scaun electric",
+        "speak": "păcăleală de 1 Aprilie red",
+        "mime": "sistem de climatizare auto",
+        "draw1": "macara turn",
+        "speak1": "roman de aventuri",
+        "mime1": "geantă de umăr",
+        "points": "3"
+    },
+    {
+        "draw": "spumă de păr",
+        "speak": "discromatopsie",
+        "mime": "hoț de mașini",
+        "draw1": "galerie pentru perdea",
+        "speak1": "infern",
+        "mime1": "plastilină red",
+        "points": "3"
+    },
+    {
+        "draw": "cortină",
+        "speak": "Frankenstein",
+        "mime": "gel de păr",
+        "draw1": "vitrină",
+        "speak1": "protecția martorilor",
+        "mime1": "dictare red",
+        "points": "3"
+    },
+    {
+        "draw": "strat de flori",
+        "speak": "ultima rundă",
+        "mime": "vas sanguin",
+        "draw1": "pantofi cu tocuri înalte",
+        "speak1": "cădelniță red",
+        "mime1": "cărucior pentru copii",
+        "points": "3"
+    },
+    {
+        "draw": "guler de cămașă",
+        "speak": "grădiniță",
+        "mime": "semiconductor red",
+        "draw1": "far",
+        "speak1": "nas înfundat",
+        "mime1": "calendar de buzunar",
+        "points": "3"
+    },
+    {
+        "draw": "lumină albastră",
+        "speak": "turneu de concerte",
+        "mime": "ambulatoriu",
+        "draw1": "fonograf red",
+        "speak1": "sindrilar",
+        "mime1": "atacant",
+        "points": "3"
+    },
+    {
+        "draw": "halat de baie",
+        "speak": "maternitate",
+        "mime": "timbru",
+        "draw1": "album de fotografii",
+        "speak1": "vestă antiglonț",
+        "mime1": "lopățică pentru tort red",
+        "points": "3"
+    },
+    {
+        "draw": "sare alcalină red",
+        "speak": "gafă",
+        "mime": "dispozitiv de ridicare a geamului",
+        "draw1": "accesorii pentru curățare",
+        "speak1": "bar de noapte",
+        "mime1": "cric",
+        "points": "3"
+    },
+    {
+        "draw": "gard din lemn",
+        "speak": "concert caritabil",
+        "mime": "cerere în căsătorie red",
+        "draw1": "benzinărie",
+        "speak1": "încălțăminte ortopedică",
+        "mime1": "prieten de beție",
+        "points": "3"
+    },
+    {
+        "draw": "monitor",
+        "speak": "modă pentru bărbați",
+        "mime": "freză dentară",
+        "draw1": "vagon de dormit",
+        "speak1": "ploaie torențială red",
+        "mime1": "puls",
+        "points": "3"
+    },
+    {
+        "draw": "etichetă pentru sticlă",
+        "speak": "tabes dorsal",
+        "mime": "virus informatic red",
+        "draw1": "terariu",
+        "speak1": "registru de termene",
+        "mime1": "sac menajer",
+        "points": "3"
+    },
+    {
+        "draw": "pat cu zăbrele",
+        "speak": "listă de specialiști",
+        "mime": "restaurant fast food",
+        "draw1": "pod plutitor red",
+        "speak1": "bilet de răscumpărare",
+        "mime1": "arbust de ceai",
+        "points": "3"
+    },
+    {
+        "draw": "aeroport",
+        "speak": "balsam pentru par",
+        "mime": "tigvă",
+        "draw1": "scară dublă",
+        "speak1": "gaură de ozon",
+        "mime1": "grânar red",
+        "points": "3"
+    },
+    {
+        "draw": "aureolă",
+        "speak": "ajun de sărbătoare red",
+        "mime": "perie pentru sticle",
+        "draw1": "carafă",
+        "speak1": "medic de circumscripție",
+        "mime1": "debandadă",
+        "points": "3"
+    },
+    {
+        "draw": "gât de sticlă",
+        "speak": "colectare de îmbrăcăminte uzată",
+        "mime": "scriitor",
+        "draw1": "cască",
+        "speak1": "pensiune completă",
+        "mime1": "ecran de radar red",
+        "points": "3"
+    },
+    {
+        "draw": "fractură la încheietura mâinii red",
+        "speak": "scrisoare de amenințare",
+        "mime": "bețișoare chinezești",
+        "draw1": "păianjen de apă",
+        "speak1": "eroare de calcul",
+        "mime1": "bagheta dirijorului",
+        "points": "3"
+    },
+    {
+        "draw": "mușuroi",
+        "speak": "ajutor alimentar",
+        "mime": "geantă de grădiniță red",
+        "draw1": "cobur",
+        "speak1": "agenție matrimonială",
+        "mime1": "pistol de start",
+        "points": "3"
+    },
+    {
+        "draw": "cutie pentru pălării",
+        "speak": "lăcustă",
+        "mime": "scrisoare de avertisment red",
+        "draw1": "magistrală",
+        "speak1": "petrecere în pijamale",
+        "mime1": "vază pentru flori",
+        "points": "3"
+    },
+    {
+        "draw": "autobuz supraetajat",
+        "speak": "întoarcere",
+        "mime": "creion contur de sprâncene",
+        "draw1": "talpa gâștei",
+        "speak1": "sfârșit de săptămână",
+        "mime1": "damil pentru pescuit red",
+        "points": "3"
+    },
+    {
+        "draw": "linia frontului",
+        "speak": "capodoperă",
+        "mime": "frână tambur",
+        "draw1": "foișor de foc red",
+        "speak1": "capitulare",
+        "mime1": "lupă",
+        "points": "3"
+    },
+    {
+        "draw": "pantofi cu catarame",
+        "speak": "clarvăzător",
+        "mime": "lipici rapid",
+        "draw1": "ceas solar",
+        "speak1": "mixer",
+        "mime1": "stergator de parbriz red",
+        "points": "3"
+    },
+    {
+        "draw": "matcă",
+        "speak": "loja orchestrei",
+        "mime": "filtru de cafea",
+        "draw1": "cușcuș red",
+        "speak1": "cataractă",
+        "mime1": "cântec de petrecere",
+        "points": "3"
+    },
+    {
+        "draw": "balama de poartă",
+        "speak": "marmită",
+        "mime": "electrod de sudare",
+        "draw1": "os de pește",
+        "speak1": "balot de lână red",
+        "mime1": "briceag",
+        "points": "3"
+    },
+    {
+        "draw": "ciob de sticlă",
+        "speak": "marele ecran",
+        "mime": "oglindă de coafor",
+        "draw1": "trincă",
+        "speak1": "cupă mondială",
+        "mime1": "mofetă red",
+        "points": "3"
+    },
+    {
+        "draw": "geacă cu glugă",
+        "speak": "cerere de grațiere red",
+        "mime": "pompier",
+        "draw1": "hamal",
+        "speak1": "diferență de scor",
+        "mime1": "pe muchie de cuțit",
+        "points": "3"
+    },
+    {
+        "draw": "pulover cu guler înalt",
+        "speak": "lanț de hoteluri",
+        "mime": "șoc termic red",
+        "draw1": "pană de gâscă",
+        "speak1": "Marele Zid Chinezesc",
+        "mime1": "buzunarul de la spate",
+        "points": "3"
+    },
+    {
+        "draw": "bară de remorcare",
+        "speak": "fructe uscate",
+        "mime": "informator al poliției red",
+        "draw1": "tunel aerodinamic",
+        "speak1": "avion charter",
+        "mime1": "picior strâmb",
+        "points": "3"
+    },
+    {
+        "draw": "cușcă de câine",
+        "speak": "zăbală",
+        "mime": "gel de dus red",
+        "draw1": "braț de forță",
+        "speak1": "premiu Nobel",
+        "mime1": "fereastră basculantă",
+        "points": "3"
+    },
+    {
+        "draw": "creastă de munte",
+        "speak": "proteină",
+        "mime": "slip de baie",
+        "draw1": "surfer",
+        "speak1": "echipa națională",
+        "mime1": "lovitură de la 11 metri red",
+        "points": "3"
+    },
+    {
+        "draw": "purceluș de casă",
+        "speak": "teren intravilan",
+        "mime": "mașină de găurit",
+        "draw1": "burlan de sobă",
+        "speak1": "ora locală",
+        "mime1": "fir de pai red",
+        "points": "3"
+    },
+    {
+        "draw": "trafic din sens opus",
+        "speak": "bucătar șef",
+        "mime": "tragere la talere",
+        "draw1": "pilor red",
+        "speak1": "criminal periculos",
+        "mime1": "popicărie",
+        "points": "3"
+    },
+    {
+        "draw": "ușă rabatabilă",
+        "speak": "consiliere pastorală",
+        "mime": "oră de vârf",
+        "draw1": "ac de viespe",
+        "speak1": "experiement de fizică",
+        "mime1": "sirop de tuse red",
+        "points": "3"
+    },
+    {
+        "draw": "construcție pe piloni",
+        "speak": "copil născut prematur",
+        "mime": "majorarea prețurilor red",
+        "draw1": "rezervor de lichid pentru parbriz",
+        "speak1": "avantaj",
+        "mime1": "pistol de lipit",
+        "points": "3"
+    },
+    {
+        "draw": "cornet acustic",
+        "speak": "concediu medical",
+        "mime": "climă",
+        "draw1": "undă de șoc red",
+        "speak1": "sul de papirus",
+        "mime1": "marginea patului",
+        "points": "3"
+    },
+    {
+        "draw": "fereastră cu boltă",
+        "speak": "șef de departament",
+        "mime": "filigran red",
+        "draw1": "ciorchină de struguri",
+        "speak1": "Munții Rodnei",
+        "mime1": "aparat auditiv",
+        "points": "3"
+    },
+    {
+        "draw": "verigă de lanț",
+        "speak": "cămin pentru tineret",
+        "mime": "bătaia inimii",
+        "draw1": "căciulă cu ciucure",
+        "speak1": "raport procentual",
+        "mime1": "coroană solară red",
+        "points": "3"
+    },
+    {
+        "draw": "tractorist red",
+        "speak": "siestă",
+        "mime": "separator telecomandat",
+        "draw1": "vin de masă",
+        "speak1": "colorant pentru mătase naturală",
+        "mime1": "logodnă",
+        "points": "3"
+    },
+    {
+        "draw": "ponei",
+        "speak": "cotor de măr",
+        "mime": "microscop",
+        "draw1": "cască de înot",
+        "speak1": "ora de vara",
+        "mime1": "circumferință la gât red",
+        "points": "3"
+    },
+    {
+        "draw": "bagaj de mână",
+        "speak": "colecție de rețete",
+        "mime": "șut",
+        "draw1": "turn de biserică",
+        "speak1": "miez de nucă",
+        "mime1": "oglindă de buzunar red",
+        "points": "3"
+    },
+    {
+        "draw": "ceas digital",
+        "speak": "interdicție de circulație",
+        "mime": "amendă bănească red",
+        "draw1": "tabel tarifar",
+        "speak1": "sforăit",
+        "mime1": "obraz nebărbierit",
+        "points": "3"
+    },
+    {
+        "draw": "cursă cu obstacole red",
+        "speak": "fetiță",
+        "mime": "coajă de banană",
+        "draw1": "umeraș",
+        "speak1": "șevalet",
+        "mime1": "???",
+        "points": "3"
+    },
+    {
+        "draw": "dală de pământ cu gazon red",
+        "speak": "dublă cetățenie",
+        "mime": "tuse iritantă",
+        "draw1": "emițător radio",
+        "speak1": "listă de așteptare",
+        "mime1": "zmeu",
+        "points": "3"
+    },
+    {
+        "draw": "filament",
+        "speak": "călătorie de afaceri",
+        "mime": "tușe iritantă red",
+        "draw1": "balustradă",
+        "speak1": "camerista",
+        "mime1": "săpun lichid",
+        "points": "3"
+    },
+    {
+        "draw": "minge de rugby",
+        "speak": "unitate floppy",
+        "mime": "bust",
+        "draw1": "zâna apelor",
+        "speak1": "elev eminent",
+        "mime1": "guler detașabil red",
+        "points": "3"
+    },
+    {
+        "draw": "bermude",
+        "speak": "lozul cel mare",
+        "mime": "floricele de porumb red",
+        "draw1": "unicorn",
+        "speak1": "ghinionist",
+        "mime1": "schimbare de roți",
+        "points": "3"
+    },
+    {
+        "draw": "braț oscilant",
+        "speak": "mașină de firma",
+        "mime": "îmbrăcăminte ignifugă red",
+        "draw1": "unghi de deschidere",
+        "speak1": "germen de grâu",
+        "mime1": "inelar",
+        "points": "3"
+    },
+    {
+        "draw": "bucium",
+        "speak": "mașină închiriată",
+        "mime": "lactoză red",
+        "draw1": "carte poștală",
+        "speak1": "orez brut",
+        "mime1": "dispozitiv de scos sâmburi de cireșe",
+        "points": "3"
+    },
+    {
+        "draw": "ocluziune intestinală red",
+        "speak": "vânătoare de vrăjitoare",
+        "mime": "mașină de tricotat circulară",
+        "draw1": "sistem vascular",
+        "speak1": "grupare teroristă",
+        "mime1": "gudurat",
+        "points": "5"
+    },
+    {
+        "draw": "porțelan chinezesc red",
+        "speak": "piață de flori",
+        "mime": "domino",
+        "draw1": "fractură nazală",
+        "speak1": "preluarea mingii",
+        "mime1": "ștafetă",
+        "points": "5"
+    },
+    {
+        "draw": "temperatura corpului",
+        "speak": "formă circulară",
+        "mime": "voiaj de nuntă red",
+        "draw1": "far de ceață",
+        "speak1": "ablutomanie",
+        "mime1": "inel de logodnă",
+        "points": "5"
+    },
+    {
+        "draw": "scufundător red",
+        "speak": "biftec tartar",
+        "mime": "ienupăr",
+        "draw1": "notebook",
+        "speak1": "filmare de probă",
+        "mime1": "mania curățeniei",
+        "points": "5"
+    },
+    {
+        "draw": "câine Saint Bernard",
+        "speak": "masă falimentară",
+        "mime": "fragil",
+        "draw1": "otravă pentru săgeți",
+        "speak1": "la cererea publicului",
+        "mime1": "ogar red",
+        "points": "5"
+    },
+    {
+        "draw": "dublu feminin",
+        "speak": "permis de pescuit",
+        "mime": "simț olfactiv",
+        "draw1": "costum de marinar",
+        "speak1": "azot",
+        "mime1": "trofeu transmisibil red",
+        "points": "5"
+    },
+    {
+        "draw": "sfinx",
+        "speak": "complexul lui Oedip",
+        "mime": "obezitate",
+        "draw1": "limuzină",
+        "speak1": "lanț de magazine red",
+        "mime1": "satâr",
+        "points": "5"
+    },
+    {
+        "draw": "serviciu de masă",
+        "speak": "om blajin",
+        "mime": "portret de bărbat red",
+        "draw1": "cheie pentru șuruburi",
+        "speak1": "verificarea roților",
+        "mime1": "urmărire cu mașini",
+        "points": "5"
+    },
+    {
+        "draw": "stridie",
+        "speak": "șarlatan",
+        "mime": "suport de carte",
+        "draw1": "radiografie",
+        "speak1": "plafon de credit",
+        "mime1": "friguri de baltă red",
+        "points": "5"
+    },
+    {
+        "draw": "rechin cu țepi",
+        "speak": "asfalt",
+        "mime": "Zidul Plângerii",
+        "draw1": "copitate",
+        "speak1": "inhibitor de apetit",
+        "mime1": "donator de organe red",
+        "points": "5"
+    },
+    {
+        "draw": "fuscel de scară",
+        "speak": "blasfemator",
+        "mime": "săritura broaștei",
+        "draw1": "semnal cu fum",
+        "speak1": "oglindă fermecată",
+        "mime1": "iritație nazală red",
+        "points": "5"
+    },
+    {
+        "draw": "terasă de plajă",
+        "speak": "stirist",
+        "mime": "marș",
+        "draw1": "petală de trandafir",
+        "speak1": "pierdere de timp",
+        "mime1": "praf de curățat red",
+        "points": "5"
+    },
+    {
+        "draw": "taur de prășilă red",
+        "speak": "cameră de oaspeți",
+        "mime": "ridicarea ancorei",
+        "draw1": "cercetaș",
+        "speak1": "bucată de vată",
+        "mime1": "zgripțuroaică",
+        "points": "5"
+    },
+    {
+        "draw": "zar",
+        "speak": "capacitate cilindrică",
+        "mime": "lovitură de cap la poartă",
+        "draw1": "bicicletă de camping",
+        "speak1": "porumbelul păcii",
+        "mime1": "turnir red",
+        "points": "5"
+    },
+    {
+        "draw": "miros de brad",
+        "speak": "liposucție",
+        "mime": "asasin",
+        "draw1": "permis de parcare",
+        "speak1": "dădacă",
+        "mime1": "dulciuri red",
+        "points": "5"
+    },
+    {
+        "draw": "tură de safari",
+        "speak": "baie de sânge",
+        "mime": "instrumente de percuție",
+        "draw1": "extracție dentară",
+        "speak1": "limită de toleranță",
+        "mime1": "tablă flexibilă red",
+        "points": "5"
+    },
+    {
+        "draw": "bananier",
+        "speak": "igrasios",
+        "mime": "gură spurcată",
+        "draw1": "recoltarea stufului",
+        "speak1": "microstat",
+        "mime1": "armură red",
+        "points": "5"
+    },
+    {
+        "draw": "colț de cameră",
+        "speak": "porc",
+        "mime": "punct de pornire",
+        "draw1": "insulă mediteraneană red",
+        "speak1": "răpirea miresei",
+        "mime1": "clovn de circ",
+        "points": "5"
+    },
+    {
+        "draw": "coadă de vulpe",
+        "speak": "autodeclansator",
+        "mime": "pistol laser red",
+        "draw1": "mușchi deltoid",
+        "speak1": "compasiune",
+        "mime1": "cutie magică",
+        "points": "5"
+    },
+    {
+        "draw": "pană de păun",
+        "speak": "puchină",
+        "mime": "vaccin antivariolic",
+        "draw1": "fulgi de porumb",
+        "speak1": "cratimă",
+        "mime1": "clemă de față de masă red",
+        "points": "5"
+    },
+    {
+        "draw": "perete gastric",
+        "speak": "metraj",
+        "mime": "vomitiv red",
+        "draw1": "zodie",
+        "speak1": "diferență de fus orar",
+        "mime1": "rondel de ceapă",
+        "points": "5"
+    },
+    {
+        "draw": "centrul orașului",
+        "speak": "partener de discuții",
+        "mime": "poveste de adormit copii red",
+        "draw1": "strălucitor ca oglinda",
+        "speak1": "intonație",
+        "mime1": "zi de sărbătoare",
+        "points": "5"
+    },
+    {
+        "draw": "cuib de bufniță",
+        "speak": "cunoscător al apelor",
+        "mime": "teatru de marionete red",
+        "draw1": "negru ca abanosul",
+        "speak1": "cavalerul gri",
+        "mime1": "tachelaj",
+        "points": "5"
+    },
+    {
+        "draw": "hemoragie cerebrală",
+        "speak": "gurmet",
+        "mime": "cefaliopod",
+        "draw1": "ulei de măsline",
+        "speak1": "bunul simț",
+        "mime1": "undă de acțiune red",
+        "points": "5"
+    },
+    {
+        "draw": "crin roșu",
+        "speak": "pașoptist",
+        "mime": "cuțit pentru cojit cartofi",
+        "draw1": "nisip la rinichi",
+        "speak1": "beat criță",
+        "mime1": "scânteie de aprindere red",
+        "points": "5"
+    },
+    {
+        "draw": "deșeu toxic",
+        "speak": "stație radio",
+        "mime": "pată de benzină red",
+        "draw1": "scaun stomatologic",
+        "speak1": "infidelitate",
+        "mime1": "desen în peniță",
+        "points": "5"
+    },
+    {
+        "draw": "zâna dințișorilor",
+        "speak": "masaj la tălpi",
+        "mime": "animal de tracțiune red",
+        "draw1": "flotilă",
+        "speak1": "asalt",
+        "mime1": "prieten al cărților",
+        "points": "5"
+    },
+    {
+        "draw": "continent",
+        "speak": "ambalaj decorativ",
+        "mime": "bandă de urcare red",
+        "draw1": "întemeietor de cămin",
+        "speak1": "viguros",
+        "mime1": "apăsare pe buton",
+        "points": "5"
+    },
+    {
+        "draw": "Disneyland",
+        "speak": "pompă submersibilă",
+        "mime": "scăderea greutății red",
+        "draw1": "energie solară",
+        "speak1": "solist",
+        "mime1": "femeie puternică",
+        "points": "5"
+    },
+    {
+        "draw": "navă amiral",
+        "speak": "câinele iadului",
+        "mime": "oră de canto red",
+        "draw1": "ornitorinc",
+        "speak1": "arzător cu spirt",
+        "mime1": "cărți de joc maghiare",
+        "points": "5"
+    },
+    {
+        "draw": "flacăra olimpică",
+        "speak": "Asia Mică",
+        "mime": "bătutul covoarelor",
+        "draw1": "Degețel red",
+        "speak1": "beția adâncurilor",
+        "mime1": "cablu prelungitor",
+        "points": "5"
+    },
+    {
+        "draw": "sticluță plata",
+        "speak": "untură de pește",
+        "mime": "saxofon",
+        "draw1": "șliț",
+        "speak1": "îndârjit",
+        "mime1": "certificat de deces red",
+        "points": "5"
+    },
+    {
+        "draw": "mezeluri",
+        "speak": "stâlp totemic red",
+        "mime": "miros de picioare nespălate",
+        "draw1": "navă spațială",
+        "speak1": "raliere",
+        "mime1": "încăpățânat",
+        "points": "5"
+    },
+    {
+        "draw": "cuțit cu mâner lung",
+        "speak": "viață de vagabond",
+        "mime": "norocos red",
+        "draw1": "pămătuf de bărbierit",
+        "speak1": "taxă de tăcere",
+        "mime1": "scenariu de film",
+        "points": "5"
+    },
+    {
+        "draw": "tatuaj",
+        "speak": "firmă",
+        "mime": "claxon",
+        "draw1": "rețea rutieră",
+        "speak1": "taraganare",
+        "mime1": "coajă de nuca red",
+        "points": "5"
+    },
+    {
+        "draw": "cozonac cu mac",
+        "speak": "bitter suedez red",
+        "mime": "a molesta",
+        "draw1": "cameră de supraveghere",
+        "speak1": "onomatopee",
+        "mime1": "de grosimea colii de hârtie",
+        "points": "5"
+    },
+    {
+        "draw": "ceaiul de la ora cinci",
+        "speak": "masă de toaletă",
+        "mime": "direcție de rotație red",
+        "draw1": "palmă",
+        "speak1": "concluzie eronată",
+        "mime1": "dicționar de buzunar",
+        "points": "5"
+    },
+    {
+        "draw": "fruct ce se desface ușor de pe sâmbure red",
+        "speak": "diamant industrial",
+        "mime": "ață de cusut",
+        "draw1": "tavernă",
+        "speak1": "oligoelement",
+        "mime1": "purice de baltă",
+        "points": "5"
+    },
+    {
+        "draw": "dinte de dragon",
+        "speak": "răsăritul soarelui",
+        "mime": "lumbago",
+        "draw1": "ciorapi tip plasă",
+        "speak1": "monetarie",
+        "mime1": "capcană pentru urși red",
+        "points": "5"
+    },
+    {
+        "draw": "cameră de tortură red",
+        "speak": "întrebare cu talc",
+        "mime": "citirea gândurilor",
+        "draw1": "curse de caiac pe ape repezi",
+        "speak1": "dietă vegetariană",
+        "mime1": "pui de urs",
+        "points": "5"
+    },
+    {
+        "draw": "stradă pietonală red",
+        "speak": "odihnă activă",
+        "mime": "gustare de la ora zece",
+        "draw1": "uluc de scurgere",
+        "speak1": "radioamator",
+        "mime1": "pătură de nori",
+        "points": "5"
+    },
+    {
+        "draw": "coliziune",
+        "speak": "infracționalitate latentă",
+        "mime": "antrenor personal",
+        "draw1": "zid din cărămidă",
+        "speak1": "judecător specializat în divorț",
+        "mime1": "presă de struguri red",
+        "points": "5"
+    },
+    {
+        "draw": "dreptaci",
+        "speak": "pleava societății",
+        "mime": "degetar",
+        "draw1": "semilună",
+        "speak1": "vaccin antitetanic",
+        "mime1": "lipitor de afișe red",
+        "points": "5"
+    },
+    {
+        "draw": "magazin de vinuri și spirtoase",
+        "speak": "copie originală",
+        "mime": "botezul focului",
+        "draw1": "suflaj de tăiat cu flacăra",
+        "speak1": "eprubetă",
+        "mime1": "bacșiș red",
+        "points": "5"
+    },
+    {
+        "draw": "trandafir cu spini",
+        "speak": "film de aventuri",
+        "mime": "înfiorător",
+        "draw1": "vărsat de vânt red",
+        "speak1": "presă",
+        "mime1": "macara plutitoare",
+        "points": "5"
+    },
+    {
+        "draw": "coroană de flori",
+        "speak": "în ordinea importanței",
+        "mime": "șofer de autobuz red",
+        "draw1": "coloană de mercur",
+        "speak1": "interviu de angajare",
+        "mime1": "semințe de floarea soarelui",
+        "points": "5"
+    },
+    {
+        "draw": "bicicletă",
+        "speak": "băutură cu multivitamine",
+        "mime": "supliment de alimentație red",
+        "draw1": "Ecuator",
+        "speak1": "înfrângeri în serie",
+        "mime1": "praștie",
+        "points": "5"
+    },
+    {
+        "draw": "cutie muzicală",
+        "speak": "umerii obrajilor",
+        "mime": "forță de atracție",
+        "draw1": "pulverizator",
+        "speak1": "tel",
+        "mime1": "cămilă cu două cocoașe red",
+        "points": "5"
+    },
+    {
+        "draw": "brățară",
+        "speak": "factor de protecție solară",
+        "mime": "instrument muzical cu coarde",
+        "draw1": "tunel pentru conducte de țevi",
+        "speak1": "motor turbo",
+        "mime1": "schimbare de macaz red",
+        "points": "5"
+    },
+    {
+        "draw": "nepot",
+        "speak": "precedent",
+        "mime": "triunghi amoros",
+        "draw1": "pachet de șase bucăți",
+        "speak1": "variolă neagră red",
+        "mime1": "genoflexiune",
+        "points": "5"
+    },
+    {
+        "draw": "crescător de crapi red",
+        "speak": "contraargument",
+        "mime": "scaun de șofer",
+        "draw1": "serpentină",
+        "speak1": "supă de pui",
+        "mime1": "marșarier",
+        "points": "5"
+    },
+    {
+        "draw": "lipitoare medicală",
+        "speak": "cursul bursei",
+        "mime": "nai",
+        "draw1": "bisturiu",
+        "speak1": "gustă ceva pe furiș",
+        "mime1": "frizură de ciupercă red",
+        "points": "5"
+    },
+    {
+        "draw": "turn de fildeș",
+        "speak": "umorist",
+        "mime": "pisică sălbatică",
+        "draw1": "peruș red",
+        "speak1": "ascensor paternoster",
+        "mime1": "picătură de ploaie",
+        "points": "5"
+    },
+    {
+        "draw": "măr pădureț",
+        "speak": "dinamic",
+        "mime": "moarte în incendiu",
+        "draw1": "crinolină red",
+        "speak1": "dictator de modă",
+        "mime1": "inel de spumă",
+        "points": "5"
+    },
+    {
+        "draw": "căciulă din piele de urs",
+        "speak": "reporter de investigații",
+        "mime": "proiecție de diapozitive red",
+        "draw1": "carapace de țestoasă",
+        "speak1": "țărmul Mării Negre",
+        "mime1": "cămașă de noapte",
+        "points": "5"
+    },
+    {
+        "draw": "arc gotic",
+        "speak": "escortă de onoare",
+        "mime": "navetă spațială",
+        "draw1": "picături pentru nas",
+        "speak1": "pocitanie",
+        "mime1": "tavan fals red",
+        "points": "5"
+    },
+    {
+        "draw": "întrebare ajutătoare red",
+        "speak": "muguri de bambus",
+        "mime": "dresor de lei",
+        "draw1": "catâr",
+        "speak1": "sabotaj",
+        "mime1": "răscruce de drumuri",
+        "points": "5"
+    },
+    {
+        "draw": "lapte de cocos",
+        "speak": "galerie de microbiști",
+        "mime": "capacitate de concentrare red",
+        "draw1": "vitezometru",
+        "speak1": "potecă secretă",
+        "mime1": "curea de bici",
+        "points": "5"
+    },
+    {
+        "draw": "pantofi de clovn red",
+        "speak": "banc de nămol",
+        "mime": "moarte prin degerare",
+        "draw1": "arc lamelar",
+        "speak1": "își drege vocea",
+        "mime1": "navă remorcher",
+        "points": "5"
+    },
+    {
+        "draw": "far fix cu lumina intermitentă",
+        "speak": "mișcare de eliberare",
+        "mime": "persoană intervievată",
+        "draw1": "cambula de liman",
+        "speak1": "poezie satirică",
+        "mime1": "parameci red",
+        "points": "5"
+    },
+    {
+        "draw": "haine mulate pe corp red",
+        "speak": "lanț de bicicletă cu alarmă",
+        "mime": "poștă aeriană",
+        "draw1": "copil din eprubetă",
+        "speak1": "pământul nimănui",
+        "mime1": "armurier",
+        "points": "5"
+    },
+    {
+        "draw": "pahar de coniac",
+        "speak": "mediu de lucru",
+        "mime": "transportul gunoiului menajer",
+        "draw1": "privire laterală red",
+        "speak1": "lapte de oaie",
+        "mime1": "orientare profesională",
+        "points": "5"
+    },
+    {
+        "draw": "salată de castraveți",
+        "speak": "poale-n brâu",
+        "mime": "urs polar",
+        "draw1": "săritură cu prăjina",
+        "speak1": "lucru de mântuială",
+        "mime1": "iubăreț red",
+        "points": "5"
+    },
+    {
+        "draw": "nod de circulație red",
+        "speak": "material de balast",
+        "mime": "câștig la loto",
+        "draw1": "uniformă de deținut",
+        "speak1": "cal de călărie",
+        "mime1": "limbă de șarpe",
+        "points": "5"
+    },
+    {
+        "draw": "lac dragat red",
+        "speak": "maestru în artă culinară",
+        "mime": "vâslă de caiac",
+        "draw1": "păstor de capre",
+        "speak1": "banc cu scoțieni",
+        "mime1": "mochetă",
+        "points": "5"
+    },
+    {
+        "draw": "lumina lumânării",
+        "speak": "mod de trai",
+        "mime": "linie de intersecție a bolților",
+        "draw1": "faleză red",
+        "speak1": "ou de Paște",
+        "mime1": "aversă",
+        "points": "5"
+    },
+    {
+        "draw": "epicentru red",
+        "speak": "marș nupțial",
+        "mime": "vertebră cervicală",
+        "draw1": "excremente de șoareci",
+        "speak1": "prăjitură cu tăiței și brânză",
+        "mime1": "minge la centru",
+        "points": "5"
+    },
+    {
+        "draw": "Munții Atlas",
+        "speak": "sistem anti-blocare",
+        "mime": "deodorant cu rola",
+        "draw1": "frac",
+        "speak1": "mostră de parfum",
+        "mime1": "omul de nisip red",
+        "points": "5"
+    },
+    {
+        "draw": "exerciții la calul cu mânere",
+        "speak": "locuitor al pământului",
+        "mime": "carte de muncă red",
+        "draw1": "haine de botez",
+        "speak1": "secret din dormitor",
+        "mime1": "materie fisionabilă",
+        "points": "5"
+    },
+    {
+        "draw": "aselenizare",
+        "speak": "volei pe plajă",
+        "mime": "face pe deșteptul",
+        "draw1": "rogojină red",
+        "speak1": "teamă de îngrășare",
+        "mime1": "câine de pază",
+        "points": "5"
+    },
+    {
+        "draw": "aruncarea undiței",
+        "speak": "teren situat pe colț",
+        "mime": "limbajul trupului",
+        "draw1": "munte de înălțime medie red",
+        "speak1": "tunsoare tip paj",
+        "mime1": "lacăt de siguranță cu cifru",
+        "points": "5"
+    },
+    {
+        "draw": "călugăr cerșetor",
+        "speak": "cură de detoxifiere",
+        "mime": "ștrengar red",
+        "draw1": "navă laterală",
+        "speak1": "societate pe acțiuni",
+        "mime1": "porc spinos",
+        "points": "5"
+    },
+    {
+        "draw": "ceai dansant",
+        "speak": "timp de gândire",
+        "mime": "aripă rotitoare",
+        "draw1": "medic școlar",
+        "speak1": "erou legendar",
+        "mime1": "generos red",
+        "points": "5"
+    },
+    {
+        "draw": "carceră",
+        "speak": "Amurgul zeilor red",
+        "mime": "atac aerian",
+        "draw1": "melci comestibili",
+        "speak1": "figură de stil",
+        "mime1": "dală",
+        "points": "5"
+    },
+    {
+        "draw": "pilon",
+        "speak": "de rea credință red",
+        "mime": "mijlocitor de căsătorie",
+        "draw1": "pepene",
+        "speak1": "rezervor",
+        "mime1": "vestiar",
+        "points": "5"
+    },
+    {
+        "draw": "târnăcop de spart gheața",
+        "speak": "mușchiul diafragmă",
+        "mime": "sperjur red",
+        "draw1": "pârtie de săniuș",
+        "speak1": "tendinită",
+        "mime1": "andrele circulare",
+        "points": "5"
+    },
+    {
+        "draw": "sloi de gheață",
+        "speak": "Ziua Recunoștinței",
+        "mime": "nișă de gătit red",
+        "draw1": "furcă de tors",
+        "speak1": "cabrioletă cu două locuri",
+        "mime1": "sobă de saună",
+        "points": "5"
+    },
+    {
+        "draw": "râu subteran",
+        "speak": "costuri adiționale",
+        "mime": "cutie de biscuiți",
+        "draw1": "ruptură de mușchi red",
+        "speak1": "partener de afaceri",
+        "mime1": "energie hidraulică",
+        "points": "5"
+    },
+    {
+        "draw": "pești zburători",
+        "speak": "cuvântare bisericească",
+        "mime": "ursuleț de gumă",
+        "draw1": "maț de cârnat red",
+        "speak1": "un munte de datorii",
+        "mime1": "bazin hidrografic",
+        "points": "5"
+    },
+    {
+        "draw": "munți cutanați",
+        "speak": "gratuit",
+        "mime": "creață red",
+        "draw1": "supermarket",
+        "speak1": "cireșe negre",
+        "mime1": "Podul suspinelor",
+        "points": "5"
+    },
+    {
+        "draw": "băutură alcoolică dulce pentru femei red",
+        "speak": "slugarnic",
+        "mime": "cuceritor de inimi",
+        "draw1": "strâmtoare",
+        "speak1": "țară vecina",
+        "mime1": "antenă telescopică",
+        "points": "5"
+    },
+    {
+        "draw": "mărțișor",
+        "speak": "concediu de maternitate",
+        "mime": "foaie volantă",
+        "draw1": "petrolier",
+        "speak1": "hormoni de creștere",
+        "mime1": "mișcare reflexă red",
+        "points": "5"
+    },
+    {
+        "draw": "os iliac",
+        "speak": "secretar de partid",
+        "mime": "colectare selectivă a deșeurilor red",
+        "draw1": "păr de porc",
+        "speak1": "sprijin",
+        "mime1": "ochi de sticlă",
+        "points": "5"
+    },
+    {
+        "draw": "căderea frunzelor",
+        "speak": "deltă fluvială",
+        "mime": "gelozie red",
+        "draw1": "blat de tort",
+        "speak1": "pământ fertil",
+        "mime1": "cocoașă",
+        "points": "5"
+    },
+    {
+        "draw": "acoperământ de gheață",
+        "speak": "notă fundamentală",
+        "mime": "gurmand red",
+        "draw1": "castel de nisip",
+        "speak1": "dezorientare",
+        "mime1": "de-a prinselea",
+        "points": "5"
+    },
+    {
+        "draw": "funcție trigonometrică",
+        "speak": "cântăreț de șansonete",
+        "mime": "file de pește prăjit red",
+        "draw1": "sparanghel",
+        "speak1": "urs dansator",
+        "mime1": "augur",
+        "points": "5"
+    },
+    {
+        "draw": "panou de afișaj",
+        "speak": "câine de rasă pură",
+        "mime": "iluzionist",
+        "draw1": "bar cu muzică live red",
+        "speak1": "trăncăneală",
+        "mime1": "cireașă",
+        "points": "5"
+    },
+    {
+        "draw": "vin fiert",
+        "speak": "firul Ariadnei",
+        "mime": "ovulație red",
+        "draw1": "barcă gonflabilă",
+        "speak1": "darul naturii",
+        "mime1": "adăpătoare",
+        "points": "5"
+    },
+    {
+        "draw": "dreaptă mediană",
+        "speak": "prim-balerină",
+        "mime": "paletă de muște",
+        "draw1": "ritualul înălțării la rangul de cavaler",
+        "speak1": "echipament de protecție chimică",
+        "mime1": "broască meteorolog red",
+        "points": "5"
+    },
+    {
+        "draw": "element prefabricat red",
+        "speak": "Codul muncii",
+        "mime": "echilibristică pe mâini",
+        "draw1": "legătură prin satelit",
+        "speak1": "celulă stem",
+        "mime1": "lungime de undă",
+        "points": "5"
+    },
+    {
+        "draw": "scrisoare capcană",
+        "speak": "culori de bază",
+        "mime": "remaiaj",
+        "draw1": "set de becuri",
+        "speak1": "despăgubire red",
+        "mime1": "sculat în picioare",
+        "points": "5"
+    },
+    {
+        "draw": "coafură băiețească red",
+        "speak": "castane comestibile",
+        "mime": "cu mână lungă",
+        "draw1": "strat de nori",
+        "speak1": "telefoane de intimidare",
+        "mime1": "culegător de ciuperci",
+        "points": "5"
+    },
+    {
+        "draw": "centaur",
+        "speak": "depunere de praf de cărbune",
+        "mime": "cină de rămas bun",
+        "draw1": "butuc de roată",
+        "speak1": "bancă de spermă",
+        "mime1": "șah mat red",
+        "points": "5"
+    },
+    {
+        "draw": "avalanșă de vizitatori red",
+        "speak": "tragerea în țeapă",
+        "mime": "povestitor",
+        "draw1": "vărgat",
+        "speak1": "parc industrial",
+        "mime1": "scaun de masă pentru copii",
+        "points": "5"
+    },
+    {
+        "draw": "loc de pescuit",
+        "speak": "victorie la puncte",
+        "mime": "adeziv universal red",
+        "draw1": "balast de chilă",
+        "speak1": "om cumsecade",
+        "mime1": "loc de parcare liber",
+        "points": "5"
+    },
+    {
+        "draw": "portret robot",
+        "speak": "raport despre starea națiunii",
+        "mime": "cercel în buric",
+        "draw1": "cârmaci",
+        "speak1": "alunecare de stânci",
+        "mime1": "guzgan de apă red",
+        "points": "5"
+    },
+    {
+        "draw": "gaze de eșapament",
+        "speak": "bărbat musculos",
+        "mime": "pereche de dansatori red",
+        "draw1": "zarzavat pentru ciorbă",
+        "speak1": "scrutin de balotaj",
+        "mime1": "cilindru netezitor",
+        "points": "5"
+    },
+    {
+        "draw": "giulgiu",
+        "speak": "ambalaj economic",
+        "mime": "perie din sârmă",
+        "draw1": "pat de cuie",
+        "speak1": "deviație a coloanei vertebrale",
+        "mime1": "val de arestări red",
+        "points": "5"
+    },
+    {
+        "draw": "laringe",
+        "speak": "vânătoare de artefacte",
+        "mime": "exorcism",
+        "draw1": "plasă de volei",
+        "speak1": "salvator",
+        "mime1": "muiere red",
+        "points": "5"
+    },
+    {
+        "draw": "folicul pilos",
+        "speak": "comunitate matrimonială",
+        "mime": "vehicul de teren",
+        "draw1": "păr tuns scurt red",
+        "speak1": "afiș electoral",
+        "mime1": "recepție cocktail",
+        "points": "5"
+    },
+    {
+        "draw": "ruptură de ligamente red",
+        "speak": "stabilire de contact",
+        "mime": "partidă de fotbal",
+        "draw1": "acoperământ pentru cap",
+        "speak1": "foc continuu",
+        "mime1": "masă rotundă",
+        "points": "5"
+    },
+    {
+        "draw": "favoriți",
+        "speak": "aromaterapie",
+        "mime": "targă",
+        "draw1": "animal de povară",
+        "speak1": "capital rulant red",
+        "mime1": "bețișoare pentru urechi",
+        "points": "5"
+    },
+    {
+        "draw": "cușca leului",
+        "speak": "jurământ de învestire",
+        "mime": "papă-lapte red",
+        "draw1": "val de lumină",
+        "speak1": "Oceanul Pacific",
+        "mime1": "tocător",
+        "points": "5"
+    },
+    {
+        "draw": "tub din bambus",
+        "speak": "joc de lumini",
+        "mime": "vârful acului",
+        "draw1": "tub de respirație pentru scafandri",
+        "speak1": "campanie publicitară",
+        "mime1": "ou tare red",
+        "points": "5"
+    },
+    {
+        "draw": "popotă",
+        "speak": "glucoză",
+        "mime": "presă de usturoi red",
+        "draw1": "mutare în șah",
+        "speak1": "grad de rudenie",
+        "mime1": "scamatorie",
+        "points": "5"
+    },
+    {
+        "draw": "pisică domestică",
+        "speak": "pește momeală",
+        "mime": "căutător de aur red",
+        "draw1": "autovehicul de depanare",
+        "speak1": "bonă",
+        "mime1": "podoabă din pene",
+        "points": "5"
+    },
+    {
+        "draw": "decor",
+        "speak": "minidisc",
+        "mime": "pahar gradat",
+        "draw1": "curățătorie de covoare",
+        "speak1": "conservarea speciei",
+        "mime1": "bidon de rezervă red",
+        "points": "5"
+    },
+    {
+        "draw": "creșă",
+        "speak": "cartier chinezesc",
+        "mime": "cutie neagră red",
+        "draw1": "huhurez de casă",
+        "speak1": "vizionar",
+        "mime1": "personal de pază și ordine",
+        "points": "5"
+    },
+    {
+        "draw": "tablou floral",
+        "speak": "viață de huzur",
+        "mime": "măsură de trei timpi red",
+        "draw1": "mobilă tapițată",
+        "speak1": "în stare de libertate",
+        "mime1": "bondar",
+        "points": "5"
+    },
+    {
+        "draw": "colțar",
+        "speak": "depoziția martorului",
+        "mime": "artă culinară red",
+        "draw1": "derbi",
+        "speak1": "deșeuri periculoase",
+        "mime1": "lingușitor",
+        "points": "5"
+    },
+    {
+        "draw": "balanță de farmacie",
+        "speak": "drept de preemțiune",
+        "mime": "croitorie pentru bărbați",
+        "draw1": "fasole red",
+        "speak1": "spirtieră",
+        "mime1": "șoarece de deșert",
+        "points": "5"
+    },
+    {
+        "draw": "vecin de celulă",
+        "speak": "defrișare totală red",
+        "mime": "minge medicinală",
+        "draw1": "ușă de garaj",
+        "speak1": "salină",
+        "mime1": "iarbă tremurătoare",
+        "points": "5"
+    },
+    {
+        "draw": "splină",
+        "speak": "contor",
+        "mime": "treaptă a cursului de apă",
+        "draw1": "picătură de transpirație",
+        "speak1": "șrot",
+        "mime1": "bere gratis red",
+        "points": "5"
+    },
+    {
+        "draw": "șoricar cu păr lung red",
+        "speak": "tablă înmulțirii",
+        "mime": "ceas cu cuc",
+        "draw1": "pește în ulei",
+        "speak1": "mânie nestăpânită",
+        "mime1": "prietenie între câine și pisică",
+        "points": "5"
+    },
+    {
+        "draw": "omletă cu cașcaval red",
+        "speak": "criză mondială",
+        "mime": "dans de bucurie",
+        "draw1": "set de manichiură",
+        "speak1": "artist invitat",
+        "mime1": "tură de shopping",
+        "points": "5"
+    },
+    {
+        "draw": "om bun numai de gură",
+        "speak": "girant red",
+        "mime": "perete abdominal",
+        "draw1": "boltă cerească înstelată",
+        "speak1": "glanda tiroidă",
+        "mime1": "vopsea de ulei",
+        "points": "5"
+    },
+    {
+        "draw": "tendonul lui Ahile",
+        "speak": "costum popular de tânără nevastă",
+        "mime": "stavilar",
+        "draw1": "frați gemeni",
+        "speak1": "lapte demachiant",
+        "mime1": "mesaj sms red",
+        "points": "5"
+    },
+    {
+        "draw": "nas acvilin",
+        "speak": "consilier juridic",
+        "mime": "prima iubire",
+        "draw1": "artist",
+        "speak1": "proboscidieni",
+        "mime1": "distanță de frânare red",
+        "points": "5"
+    },
+    {
+        "draw": "teren extravilan red",
+        "speak": "iluzionism",
+        "mime": "tocmeală",
+        "draw1": "chițcan de câmp",
+        "speak1": "iaz de moară",
+        "mime1": "duelator",
+        "points": "5"
+    },
+    {
+        "draw": "fragment de scrisoare red",
+        "speak": "mascul de cerb",
+        "mime": "Motanul Încălțat",
+        "draw1": "spumă de lapte",
+        "speak1": "prognostic pentru alegeri",
+        "mime1": "hârtie sticlată",
+        "points": "5"
+    },
+    {
+        "draw": "sul de tapet",
+        "speak": "costuri de amortizare",
+        "mime": "la stânga împrejur",
+        "draw1": "laba din față",
+        "speak1": "lozincă",
+        "mime1": "dezarmare red",
+        "points": "5"
+    },
+    {
+        "draw": "șapcă de baseball",
+        "speak": "purgatoriu",
+        "mime": "monociclu",
+        "draw1": "untură de balenă red",
+        "speak1": "vorbăreț",
+        "mime1": "secțiune transversală",
+        "points": "5"
+    },
+    {
+        "draw": "câmp magnetic red",
+        "speak": "donație",
+        "mime": "machetă de avion",
+        "draw1": "husă de scaun",
+        "speak1": "primul născut",
+        "mime1": "dansator de step",
+        "points": "5"
+    },
+    {
+        "draw": "tun de apă",
+        "speak": "evidența clienților",
+        "mime": "permanent red",
+        "draw1": "chioșc de ziare",
+        "speak1": "panouri de publicitate mobile",
+        "mime1": "pește răpitor",
+        "points": "5"
+    },
+    {
+        "draw": "adorarea zeilor red",
+        "speak": "punct procentual",
+        "mime": "cremă de unt",
+        "draw1": "fierbător de apă",
+        "speak1": "ceară de sigiliu",
+        "mime1": "dans cu voaluri",
+        "points": "5"
+    },
+    {
+        "draw": "pod de aur",
+        "speak": "ocupație secundară",
+        "mime": "defileu",
+        "draw1": "hartă meteorologică red",
+        "speak1": "stil telegrafic",
+        "mime1": "cușetă",
+        "points": "5"
+    },
+    {
+        "draw": "frunză de spanac red",
+        "speak": "om chitibusar",
+        "mime": "pisică lingușitoare",
+        "draw1": "mașină de patrulă",
+        "speak1": "percepție",
+        "mime1": "criză de furie",
+        "points": "5"
+    },
+    {
+        "draw": "ștrudel cu mere",
+        "speak": "pâine uscată",
+        "mime": "bidon de miere red",
+        "draw1": "post de radio pirat",
+        "speak1": "etnolog",
+        "mime1": "calcul mental",
+        "points": "5"
+    },
+    {
+        "draw": "arteră coronariană",
+        "speak": "exemplu clasic red",
+        "mime": "unghi de înclinație",
+        "draw1": "ceas de scafandru",
+        "speak1": "tandrețe",
+        "mime1": "bani pentru alimente",
+        "points": "5"
+    },
+    {
+        "draw": "linie de cale ferată red",
+        "speak": "vendetă",
+        "mime": "în prag de sărbători",
+        "draw1": "corpul vaporului",
+        "speak1": "reazem",
+        "mime1": "ordin de dans",
+        "points": "5"
+    },
+    {
+        "draw": "somieră",
+        "speak": "lichid amniotic",
+        "mime": "predica de pe munte",
+        "draw1": "muntean",
+        "speak1": "discurs de inaugurare red",
+        "mime1": "galerie circulară",
+        "points": "5"
+    },
+    {
+        "draw": "pâine cu fructe",
+        "speak": "pește prădător red",
+        "mime": "slab de înger",
+        "draw1": "fluture de varză",
+        "speak1": "negustor de sclavi",
+        "mime1": "farfurie plată",
+        "points": "5"
+    },
+    {
+        "draw": "burete galben",
+        "speak": "magazin de delicatese",
+        "mime": "piept de pui",
+        "draw1": "butoi cu pulbere red",
+        "speak1": "fata morgană",
+        "mime1": "cotor",
+        "points": "5"
+    },
+    {
+        "draw": "armăsar",
+        "speak": "imagine",
+        "mime": "scut protector",
+        "draw1": "careu de anagramă",
+        "speak1": "societate de consum",
+        "mime1": "piroșcă red",
+        "points": "5"
+    },
+    {
+        "draw": "vară indiană red",
+        "speak": "poftă de dulciuri",
+        "mime": "memorie vizuală",
+        "draw1": "Scufița roșie",
+        "speak1": "panoramă",
+        "mime1": "unghi drept",
+        "points": "5"
+    },
+    {
+        "draw": "copiator red",
+        "speak": "ștecher",
+        "mime": "persoană lascivă",
+        "draw1": "ceapă eșalotă",
+        "speak1": "alertă de smog",
+        "mime1": "de prost gust",
+        "points": "5"
+    },
+    {
+        "draw": "adolescent lungan",
+        "speak": "chirurg plastician",
+        "mime": "idolatrie red",
+        "draw1": "piatră de pavaj",
+        "speak1": "revistă de scandal",
+        "mime1": "număr de ordine",
+        "points": "5"
+    },
+    {
+        "draw": "dungi de tigru",
+        "speak": "mausoleu red",
+        "mime": "polip nazal",
+        "draw1": "uscător de păr tip cască",
+        "speak1": "rezervație de animale",
+        "mime1": "dozator",
+        "points": "5"
+    },
+    {
+        "draw": "salată de cartofi",
+        "speak": "acid formic",
+        "mime": "guvern marionetă red",
+        "draw1": "pălărie safari",
+        "speak1": "statul în colț",
+        "mime1": "ecranare",
+        "points": "5"
+    },
+    {
+        "draw": "clopot de caș",
+        "speak": "biblioraft",
+        "mime": "condamant la galere",
+        "draw1": "strecurătoare red",
+        "speak1": "castraveți în oțet",
+        "mime1": "hotă",
+        "points": "5"
+    }
+]

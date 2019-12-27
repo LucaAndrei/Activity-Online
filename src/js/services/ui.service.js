@@ -4,10 +4,10 @@ const UIService = (($) => {
     const placeholderDiv = $("#placeholder");
     const loadTemplate = (url, callback) => {
         placeholderDiv.load(url, () => {
+            
             return callback();
         });
     }
-
     const topbarDiv = $("topbar");
     const loadLayout = (url) => {
         topbarDiv.load(url, () => {

@@ -14,41 +14,5 @@ var bootstrap = require('bootstrap/dist/js/bootstrap.bundle')
         uiService.loadTemplate(components['main-menu'].templateUrl, () => {
             require('../components/main-menu/main-menu')($, uiService, storageService, components);
         })
-
-        console.log("TCL: components", components)
     })
 })()
-//
-
-// var storageService = require('./services/storage.js')();
-// // console.log("TCL: storageServie", storageServie)
-
-// storageService.save('asd','qwe123');
-// console.log(storageService.get('asd'))
-
-// console.log("TCL: $", $)
-// var square = function square (x) { return x * x; }  
-// // $("#placeholder").append(square(6));
-
-// console.log("2345123")
-// (function ($) {
-
-//     const storageService = new StorageService();
-//     
-
-
-
-//     $('.navbar-brand').click(function(e) {
-//         e.preventDefault(); // prevent the default action
-//         e.stopPropagation; // stop the click from bubbling
-//         location.reload(true);
-//     })
-
-
-
-
-
-//         $.getJSON("js/data.json", data => {
-//             console.log("TCL: data", data)
-//         })
-// })(jQuery);

@@ -1,10 +1,14 @@
 const StorageService = (() => {
-    const save = (key, value) => {
-        localStorage.setItem(key, value);
+
+    const STORAGE_KEY = 'activity-game-details';
+
+    const save = (object) => {
+        console.log("TCL: save -> object", object)
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(object));
     };
 
-    const get = (key) => {
-        return localStorage.getItem(key);
+    const get = () => {
+        return JSON.parse(localStorage.getItem(STORAGE_KEY));
     };
 
     return {

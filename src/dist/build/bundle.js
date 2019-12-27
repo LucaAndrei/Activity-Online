@@ -17765,101 +17765,62 @@ let CHALLENGES = [
         border: 'light-yellow'
     }
 ]
+let PAWN_ELEMENTS = {
+    'red': `<div class='pawn red' teamName='red'></div>`,
+    'green': `<div class='pawn green' teamName='green'></div>`,
+    'yellow': `<div class='pawn yellow' teamName='yellow'></div>`,
+    'blue': `<div class='pawn blue' teamName='blue'></div>`,
+}
 const BoardGame = (($, uiService, storageService, components) => {
     const MAX_POINTS = 48;
+
     let CURRENT_SELECTED_CARD = null;
-    const gameDetails = JSON.parse(storageService.get('activity-game-details'));
-    console.log("TCL: BoardGame -> gameDetails", gameDetails)
-    if (gameDetails.currentPlayer === "") {
-        $('.currentPlayer').html(`<p class="current-player">Current Player : ${getCurrentPlayer()}</p>`)
-    }
+    let GAME_DETAILS = null;
+
+    let CURRENT_PLAYER = null;
+    let CURRENT_TEAM = null;
+
+    let CORRECT_ANSWER = false;
+
+    let COUNTDOWN_TIMER = null;
+
+    let TIME = 10;
+
+    let CARDS = [];
+
+    let USED_CARDS = [];
+
     var init = () => {
+        $.getJSON("components/boardgame/data-json-tradus.json", cards => {
+            GAME_DETAILS = storageService.get();
+            CURRENT_PLAYER = GAME_DETAILS.currentPlayer;
+            CURRENT_TEAM = GAME_DETAILS.teams.find(team => team.name === CURRENT_PLAYER.team)
+            USED_CARDS = GAME_DETAILS.usedCards;
+            if (USED_CARDS.length > 0) {
+                for(let i = 0; i < USED_CARDS.length; i++) {
+                    cards = cards.filter(card => card['draw'] !== USED_CARDS[i]['draw'])
+                }
+            }
+            CARDS = cards;
+            setupBoard();
+            setupPawns();
+            setCurrentPlayer();
+            storageService.save(GAME_DETAILS);
+            setupCardEvents();
 
-        setupBoard();
-        $('#exampleModal').modal({ backdrop: 'static', show: false })
-
-        $(".startTimer").click(function () {
-            console.log("start timer click")
+            $('#cardModal').modal({ backdrop: 'static', show: false });
         })
-        $(".wrongAnswer").click(function () {
-            console.log("wrongAnswer click")
-            // $('#exampleModal')
-            console.log("TCL: init -> $('#exampleModal')", $('#exampleModal'))
-            $('#exampleModal').modal('hide')
-        })
-        // $(".correctAnswer").click(function () {
-        //     console.log("correctAnswer click")
-        //     $('#exampleModal').modal('hide')
-        // })
-
-        $('#exampleModal').on('show.bs.modal', function () {
-            const card = drawCard();
-            const x = $('#exampleModal').find('.card-challenge')
-            console.log("TCL: init -> x", x)
-            x.each(function (index) {
-                console.log("TCL: init -> index", index, $(this))
-                $(this).find('.text').text(`${CURRENT_SELECTED_CARD[$(this).find('.text').attr('challenge')]}`)
-                const currentPlayer = getCurrentPlayer();
-            })
-            //.html('<p>myData</p>');
-        })
-
-        gameDetails.teams.forEach(team => {
-            console.log("TCL: init -> team", team)
-            const classes = `.diamond.${team.teamName}`
-            console.log("TCL: init -> classes ", classes)
-            const q = $(classes);
-            console.log("TCL: init -> q", q)
-            $(classes).html(`<div class='pawn ${team.teamName}'></div>`)
-            // console.log("TCL: init -> $(`.diamond .${team.teamName}`)", $(classes))
-
-            // $(`.diamond.${team.teamName}`).append(`<div class='pawn ${team.teamName}'`)
-        })
-
-        $('.points').click(function (e) {
-            console.log("points clicked")
-            const t = $(e.currentTarget)
-            console.log("TCL: init -> t", t)
-            // t.attr('points');
-            console.log("TCL: init -> t.attr('points');", t.attr('points'))
-            CURRENT_SELECTED_CARD = drawCard(t.attr('points'))
-            $("#exampleModal").modal('show');
-        })
-
-
-        // $.getJSON("js/data.json", data => {
-        //     console.log("game setup TCL: data", data)
-        // })
-    }
-
-    function drawCard(points) {
-        return {
-            'draw': '1',
-            'speak': '2',
-            'mime': '3',
-            'draw1': '4',
-            'speak1': '5',
-            'mime1': '6',
-        }
-    }
-
-    function getCurrentPlayer() {
-        return gameDetails.teams[0].players[0];
+        
     }
 
     function setupBoard() {
         const challengesDiv = $('.challenges');
-        console.log("TCL: setupBoard -> challengesDiv", challengesDiv)
         let challengesHtml = '';
         for (var i = 0; i < CHALLENGES.length; i++) {
             let section = CHALLENGES[i];
-            console.log("TCL: setupBoard -> section", section.challenges)
             let firstRow = `<div class='challenges--row border-${section.border}'>`;
             let secondRow = `<div class='challenges--row border-${section.border}'>`;
-            console.log("TCL: setupBoard -> (section.challenges.length / 2) - 1", (section.challenges.length / 2) - 1)
-
             for (var j = 0; j < section.challenges.length / 2; j++) {
-                console.log("TCL: setupBoard -> j", j, section.challenges[j])
                 if (i === 0 && j === 0) {
                     firstRow += `<div class='challenge ${section.challenges[j]} rounded-0'></div>`
                 } else {
@@ -17867,8 +17828,6 @@ const BoardGame = (($, uiService, storageService, components) => {
                 }
             }
             firstRow += '</div>'
-            console.log("TCL: setupBoard -> section.challenges.length", section.challenges.length)
-
             for (var j = section.challenges.length / 2; j < section.challenges.length; j++) {
                 if (i === CHALLENGES.length - 1 && j === section.challenges.length) {
                     secondRow += `<div class='challenge ${section.challenges[j]} rounded-0'></div>`
@@ -17877,13 +17836,150 @@ const BoardGame = (($, uiService, storageService, components) => {
                 }
             }
             secondRow += '</div>'
-            console.log("TCL: setupBoard -> secondRow", secondRow)
-
-
-            console.log("TCL: setupBoard -> section", section)
             challengesHtml += `${firstRow}${secondRow}`
         }
         challengesDiv.html(challengesHtml)
+    }
+
+    function setupPawns() {
+        GAME_DETAILS.teams.forEach(team => {
+            const pawnHTML = `<div class='pawn ${team.name}' teamName='${team.name}'></div>`
+            if (team.points > 0) {
+                const challenges = $('.challenge');
+                $(challenges[team.points - 1]).html(PAWN_ELEMENTS[team.name]);
+            } else {
+                const classes = `.diamond.${team.name}`
+                $(classes).html(pawnHTML);
+            }
+        })
+    }
+
+    function setCurrentPlayer() {
+        $('.currentPlayer').html(`<p class="current-player">Current Player : ${CURRENT_TEAM.name} - ${CURRENT_PLAYER.name}</p>`)
+    }
+
+    function setupCardEvents() {
+        $(".startTimer").click(function () {
+            $(".startTimer").attr('disabled', 'disabled');
+            TIME = 10;
+            COUNTDOWN_TIMER = setInterval(function () {
+                $('.time-left').text(TIME);
+                TIME -= 1;
+                if (TIME < 0) {
+                    clearInterval(COUNTDOWN_TIMER);
+                    CORRECT_ANSWER = false;
+                    $('#cardModal').modal('hide');
+                }
+            }, 1000);
+        })
+        $(".wrongAnswer").click(function () {
+            CORRECT_ANSWER = false;
+            clearInterval(COUNTDOWN_TIMER);
+            $('#cardModal').modal('hide');
+        })
+        $(".correctAnswer").click(function () {
+            CORRECT_ANSWER = true;
+            clearInterval(COUNTDOWN_TIMER);
+            $('#cardModal').modal('hide');
+        })
+
+        $('#cardModal').on('show.bs.modal', function () {
+            // disable success and wrong buttons until start timer?
+            $(".startTimer").attr('disabled', null);
+            const cardChallenge = $('#cardModal').find('.card-challenge')
+
+            cardChallenge.each(function (index) {
+                const textElement = $(this).find('.text');
+                textElement.removeClass('red');
+                let challengeText = CURRENT_SELECTED_CARD[textElement.attr('challenge')];
+                const isRedWord = challengeText.indexOf('red') > -1;
+                if (isRedWord) {
+                    textElement.addClass('red');
+                    challengeText = challengeText.split(' red')[0];
+                }
+
+                
+                textElement.text(challengeText)
+            })
+        });
+
+        $('#cardModal').on('hide.bs.modal', function () {
+            if (CORRECT_ANSWER) {
+                CURRENT_TEAM.points += parseInt(CURRENT_SELECTED_CARD.points);
+                setPawn();
+                CORRECT_ANSWER = false;
+            }
+            CURRENT_PLAYER.played = true;
+            if (CURRENT_TEAM.players.filter(player => player.played === false).length === 0) {
+                CURRENT_TEAM.players.forEach(player => player.played = false);
+            }
+            findNextPlayer();
+            setCurrentPlayer();
+    
+            const winningTeam = GAME_DETAILS.teams.find(team => team.points > MAX_POINTS);
+            if (winningTeam !== undefined) {
+                console.log("GAME FINISHED")
+                $("#winningTeam").text(`${winningTeam.name}`)
+                $('#finishModal').modal({ backdrop: 'static', show: true })
+            }
+            storageService.save(GAME_DETAILS);
+        });
+
+        $(".restartGame").click(() => {
+            GAME_DETAILS.teams.forEach(team => team.points = 0);
+            GAME_DETAILS.usedCards = [];
+            storageService.save(GAME_DETAILS);
+            location.reload();
+        })
+
+        $('.points').click(function (e) {
+            const selectedCardPoints = $(e.currentTarget).attr('points')
+            CURRENT_SELECTED_CARD = drawCard(selectedCardPoints)
+            $("#cardModal").modal('show');
+        })
+    }
+
+
+    function drawCard(points) {
+        const pointsCards = CARDS.filter(card => card.points == points);
+        const randomCardIndex = Math.floor(Math.random() * (pointsCards.length + 1))
+        const selectedCard = pointsCards[randomCardIndex];
+        CARDS = CARDS.filter(card => card['draw'] !== selectedCard['draw'])
+        USED_CARDS.push(selectedCard);
+        return selectedCard;
+    }
+
+    function findNextPlayer() {
+        let currentTeamIndex = GAME_DETAILS.teams.findIndex(team => team.name === CURRENT_TEAM.name)
+        let nextTeamIndex = 0;
+        if (currentTeamIndex + 1 === GAME_DETAILS.teams.length) {
+            nextTeamIndex = 0;
+        } else {
+            nextTeamIndex = ++currentTeamIndex;
+        }
+        const nextPlayer = GAME_DETAILS.teams[nextTeamIndex].players.find(player => player.played === false);
+        CURRENT_TEAM = GAME_DETAILS.teams[nextTeamIndex];
+        CURRENT_PLAYER = {
+            ...nextPlayer,
+            team: GAME_DETAILS.teams[nextTeamIndex].name
+        }
+    }
+
+    function setPawn() {
+        const challenges = $('.challenge');
+        const currentChallenge = challenges[CURRENT_TEAM.points - 1]
+        const existingPawn = $(currentChallenge).find('.pawn');
+
+        $(`.pawn.${CURRENT_TEAM.name}`).parent().html(''); // remove pawn from current position
+
+        if (existingPawn.length) {
+            const existingPawnTeamDetails = GAME_DETAILS.teams.find(team => team.name === existingPawn.attr('teamName'));
+            $(currentChallenge).html(PAWN_ELEMENTS[CURRENT_TEAM.name]);
+            $(currentChallenge).prev().html(PAWN_ELEMENTS[existingPawnTeamDetails.name])
+            existingPawnTeamDetails.points -= 1;
+        } else {
+            $(currentChallenge).html(PAWN_ELEMENTS[CURRENT_TEAM.name]);
+        }
     }
 
 
@@ -17905,12 +18001,11 @@ const GameSetup = (($, uiService, storageService, components) => {
     const players = [];
 
     var init = () => {
-        console.log("setup ", $, $(".counter__increment, .counter__decrement"))
         $(".counter__increment, .counter__decrement").click(function (e) {
             var counterInput = $(this).parent().find(".counter__input");
             var counterInput__name = $(this).parent().find(".counter__input").attr("name");
 
-            var currentVal = parseInt($(this).parent().find(".counter__input").val());
+            var currentVal = parseInt(counterInput.val());
 
             if (currentVal != NaN && $(this).hasClass('counter__increment')) {
                 if (counterInput__name === 'playersCounter') {
@@ -17938,45 +18033,40 @@ const GameSetup = (($, uiService, storageService, components) => {
             isReadyForStart();
 
         });
+        
         $("#begin").click(function () {
 
             saveNames();
-            console.log("begin click load game html", players);
-            // $("#placeholder").load("game.html")\
             const teamNames = ['red', 'green', 'blue', 'yellow']
             const teams = [];
             for(var i = 0 ; i < players.length; i++) {
                 teams.push({
-                    teamName: teamNames[i],
+                    name: teamNames[i],
                     players: players[i],
                     points: 0
                 })
             }
             const gameDetails = {
                 teams: teams,
-                currentPlayer: '',
+                currentPlayer: {
+                    ...teams[0].players[0],
+                    team: teams[0].name
+                },
+                usedCards: []
             }
-            storageService.save('activity-game-details', JSON.stringify(gameDetails));
-            const gd = storageService.get('activity-game-details')
-            console.log("TCL: init -> gd", gd)
-            const x =JSON.parse(gd);
-            console.log("TCL: init -> x", x)
+            storageService.save(gameDetails);
             if(isReadyForStart()) {
-                console.log("START GAME");
                 uiService.loadTemplate(components['boardgame'].templateUrl, () => {
                     require('../boardgame/boardgame')($, uiService, storageService, components).init();
                 })
             }
         });
 
-        $.getJSON("js/data.json", data => {
-            console.log("game setup TCL: data", data)
-        })
+        
         saveNames();
         setNameInputs();
         
         if (isReadyForStart()) {
-            console.log("START GAME 111")
         } else {
             disableBeginBtn();
         }
@@ -17986,18 +18076,14 @@ const GameSetup = (($, uiService, storageService, components) => {
         $("#begin").attr('disabled', 'disabled');
     }
     function enableBeginBtn() {
-        console.log("enable begin")
         $("#begin").removeAttr('disabled');
     }
     function isReadyForStart() {
-        console.log("TCL: isReadyForStart -> players", players)
         saveNames();
         const nameInputsEmpty = players.filter(team=> {
-            const t = team.filter(player=> player === "");
-            console.log("TCL: isReadyForStart -> t", t)
+            const t = team.filter(player=> player.name === "");
             return t.length > 0
         }).length
-        console.log("TCL: isReadyForStart -> nameInputsEmpty", nameInputsEmpty)
         return nameInputsEmpty === 0;
     }
 
@@ -18007,11 +18093,12 @@ const GameSetup = (($, uiService, storageService, components) => {
             players[i] = [];
             for (var j = 0; j < teams[i]; j++) {
                 const playerName = $(`[name='player_${i}_${j}']`).val() || '';
-                players[i].push(playerName);
+                players[i].push({
+                    "name": playerName,
+                    "played": false
+                });
             }
         }
-        console.log("TCL: saveNames -> players", players)
-
     }
 
     function getTeams() {
@@ -18029,12 +18116,11 @@ const GameSetup = (($, uiService, storageService, components) => {
 
     function setNameInputs() {
         const teams = getTeams();
-        console.log("TCL: init -> teams", teams)
         $('.name-input-container').html('');
         for (var i = 0; i < teams.length; i++) {
             let inputs = '';
             for (var j = 0; j < teams[i]; j++) {
-                const playerName = players[i][j] || '';
+                const playerName = players[i][j].name || '';
                 inputs += `<input class='name-input form-control' type='text' name='player_${i}_${j}' value='${playerName}' />`
             }
             const teamDiv = `
@@ -18043,7 +18129,6 @@ const GameSetup = (($, uiService, storageService, components) => {
                     ${inputs}
                 </div>
             `;
-            console.log("TCL: init -> teamDiv", teamDiv)
             $('.name-input-container').append(teamDiv);
         }
         $('.name-input').keyup(function(e) {
@@ -18061,16 +18146,16 @@ const GameSetup = (($, uiService, storageService, components) => {
 
 })
 module.exports = GameSetup;
+
 },{"../boardgame/boardgame":3}],5:[function(require,module,exports){
 const MainMenu = (($, uiService, storageService, components) => {
-console.log("TCL: MainMenu -> components", components)
-    const isGameInProgress = storageService.get('activity-game-details') !== null;
-    console.log("TCL: MainMenu -> isGameInProgress", isGameInProgress)
+    const isGameInProgress = storageService.get() !== null;
     $('ul.menu-list li').click(
         function (e) {
             var c = $(this).attr('component');
             e.preventDefault(); // prevent the default action
             e.stopPropagation; // stop the click from bubbling
+            
             if (c.indexOf("game-setup") > -1) {
                 uiService.loadTemplate(components[c].templateUrl, () => {
                     require('../game-setup/game-setup')($, uiService, storageService, components).init();
@@ -18078,7 +18163,6 @@ console.log("TCL: MainMenu -> components", components)
             } else if (c.indexOf("boardgame") > -1 && isGameInProgress) {
                 uiService.loadTemplate(components[c].templateUrl, () => {
                     const boardgame = require('../boardgame/boardgame')($, uiService, storageService, components);
-                    console.log("TCL: MainMenu -> boardgame", boardgame)
                     boardgame.init();
                 })
             }
@@ -18095,9 +18179,7 @@ module.exports = MainMenu;
 },{"../boardgame/boardgame":3,"../game-setup/game-setup":4}],6:[function(require,module,exports){
 const Topbar = (($) => {
     const el = $('.navbar-brand')
-    console.log("TCL: Topbar -> el", el)
     $('.navbar-brand').click(function (e) {
-        console.log("here")
         e.preventDefault(); // prevent the default action
         e.stopPropagation; // stop the click from bubbling
         location.reload(true);
@@ -18134,52 +18216,20 @@ var bootstrap = require('bootstrap/dist/js/bootstrap.bundle')
         uiService.loadTemplate(components['main-menu'].templateUrl, () => {
             require('../components/main-menu/main-menu')($, uiService, storageService, components);
         })
-
-        console.log("TCL: components", components)
     })
 })()
-//
-
-// var storageService = require('./services/storage.js')();
-// // console.log("TCL: storageServie", storageServie)
-
-// storageService.save('asd','qwe123');
-// console.log(storageService.get('asd'))
-
-// console.log("TCL: $", $)
-// var square = function square (x) { return x * x; }  
-// // $("#placeholder").append(square(6));
-
-// console.log("2345123")
-// (function ($) {
-
-//     const storageService = new StorageService();
-//     
-
-
-
-//     $('.navbar-brand').click(function(e) {
-//         e.preventDefault(); // prevent the default action
-//         e.stopPropagation; // stop the click from bubbling
-//         location.reload(true);
-//     })
-
-
-
-
-
-//         $.getJSON("js/data.json", data => {
-//             console.log("TCL: data", data)
-//         })
-// })(jQuery);
 },{"../components/main-menu/main-menu":5,"./config.js":7,"./services/storage.js":9,"./services/ui.service.js":10,"bootstrap/dist/js/bootstrap.bundle":1,"jquery":2}],9:[function(require,module,exports){
 const StorageService = (() => {
-    const save = (key, value) => {
-        localStorage.setItem(key, value);
+
+    const STORAGE_KEY = 'activity-game-details';
+
+    const save = (object) => {
+        console.log("TCL: save -> object", object)
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(object));
     };
 
-    const get = (key) => {
-        return localStorage.getItem(key);
+    const get = () => {
+        return JSON.parse(localStorage.getItem(STORAGE_KEY));
     };
 
     return {
@@ -18196,10 +18246,10 @@ const UIService = (($) => {
     const placeholderDiv = $("#placeholder");
     const loadTemplate = (url, callback) => {
         placeholderDiv.load(url, () => {
+            
             return callback();
         });
     }
-
     const topbarDiv = $("topbar");
     const loadLayout = (url) => {
         topbarDiv.load(url, () => {
