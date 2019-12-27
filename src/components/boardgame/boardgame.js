@@ -234,8 +234,11 @@ const BoardGame = (($, uiService, storageService, components) => {
 
         if (existingPawn.length) {
             const existingPawnTeamDetails = GAME_DETAILS.teams.find(team => team.name === existingPawn.attr('teamName'));
+            const p = existingPawnTeamDetails.points - 1;
+            const prevChallenge = challenges[p - 1];
+            $(prevChallenge).html(PAWN_ELEMENTS[existingPawnTeamDetails.name])
+            
             $(currentChallenge).html(PAWN_ELEMENTS[CURRENT_TEAM.name]);
-            $(currentChallenge).prev().html(PAWN_ELEMENTS[existingPawnTeamDetails.name])
             existingPawnTeamDetails.points -= 1;
         } else {
             $(currentChallenge).html(PAWN_ELEMENTS[CURRENT_TEAM.name]);
