@@ -17784,7 +17784,7 @@ const BoardGame = (($, uiService, storageService, components) => {
 
     let COUNTDOWN_TIMER = null;
 
-    let TIME = 10;
+    let TIME = 90;
 
     let CARDS = [];
 

@@ -44,7 +44,7 @@ const BoardGame = (($, uiService, storageService, components) => {
 
     let COUNTDOWN_TIMER = null;
 
-    let TIME = 10;
+    let TIME = 90;
 
     let CARDS = [];
 
@@ -237,7 +237,7 @@ const BoardGame = (($, uiService, storageService, components) => {
             const p = existingPawnTeamDetails.points - 1;
             const prevChallenge = challenges[p - 1];
             $(prevChallenge).html(PAWN_ELEMENTS[existingPawnTeamDetails.name])
-            
+
             $(currentChallenge).html(PAWN_ELEMENTS[CURRENT_TEAM.name]);
             existingPawnTeamDetails.points -= 1;
         } else {
