@@ -151,14 +151,17 @@
 <div class="modal fade" id="cardModal" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
-            <div class="modal-header">
+            <div class="modal-header flex-column">
 
-                <h5 class="modal-title d-flex align-items-center justify-content-between w-100" id="cardModalLabel">
+                <h5 class="modal-title">
 
-                    <span>Time left : <span class="time-left">90</span> seconds</span>
-                    <span>
-                    <button type="button" class="btn btn-primary startTimer">Start</button>
+                    <span>Time left : <span class="time-left">100</span> seconds</span><span>
                 </h5>
+                <div class="d-flex align-items-center justify-content-between w-100">
+                    <button type="button" class="btn btn-primary startTimer">Start</button>
+                    <button type="button" class="btn btn-secondary skipCard">Skip</button>
+                </div>
+
             </div>
             <div class="modal-body">
 
@@ -204,7 +207,7 @@
 <div class="modal fade" id="finishModal" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
-            
+
             <div class="modal-body">
                 <h1>Game finished !</h1>
                 <h3>Winning team <span id="winningTeam"></span></h3>

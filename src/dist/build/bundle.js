@@ -17772,7 +17772,7 @@ let PAWN_ELEMENTS = {
     'blue': `<div class='pawn blue' teamName='blue'></div>`,
 }
 const BoardGame = (($, uiService, storageService, components) => {
-    const MAX_POINTS = 48;
+    const MAX_POINTS = 12;
 
     let CURRENT_SELECTED_CARD = null;
     let GAME_DETAILS = null;
@@ -17784,7 +17784,7 @@ const BoardGame = (($, uiService, storageService, components) => {
 
     let COUNTDOWN_TIMER = null;
 
-    let TIME = 90;
+    let TIME = 100;
 
     let CARDS = [];
 
@@ -17797,7 +17797,7 @@ const BoardGame = (($, uiService, storageService, components) => {
             CURRENT_TEAM = GAME_DETAILS.teams.find(team => team.name === CURRENT_PLAYER.team)
             USED_CARDS = GAME_DETAILS.usedCards;
             if (USED_CARDS.length > 0) {
-                for(let i = 0; i < USED_CARDS.length; i++) {
+                for (let i = 0; i < USED_CARDS.length; i++) {
                     cards = cards.filter(card => card['draw'] !== USED_CARDS[i]['draw'])
                 }
             }
@@ -17810,7 +17810,7 @@ const BoardGame = (($, uiService, storageService, components) => {
 
             $('#cardModal').modal({ backdrop: 'static', show: false });
         })
-        
+
     }
 
     function setupBoard() {
@@ -17858,50 +17858,72 @@ const BoardGame = (($, uiService, storageService, components) => {
         $('.currentPlayer').html(`<p class="current-player">Current Player : ${CURRENT_TEAM.name} - ${CURRENT_PLAYER.name}</p>`)
     }
 
+    function correctAnswerClick() {
+        CORRECT_ANSWER = true;
+        clearInterval(COUNTDOWN_TIMER);
+        $('#cardModal').modal('hide');
+    }
+
+    function setupCurrentSelectedCard() {
+        $(".startTimer").attr('disabled', null);
+        const cardChallenge = $('#cardModal').find('.card-challenge')
+        const challenges = CHALLENGES.map(section => section.challenges).flat();
+        const currentChallenge = challenges[CURRENT_TEAM.points - 1];
+        console.log("TCL: setupCardEvents -> currentChallenge", currentChallenge)
+        cardChallenge.each(function (index) {
+            const textElement = $(this).find('.text');
+            textElement.removeClass('red bg-dark text-white text-uppercase text-monospace font-weight-bold text-muted');
+            let challengeText = CURRENT_SELECTED_CARD[textElement.attr('challenge')];
+            const isRedWord = challengeText.indexOf('red') > -1;
+            if (isRedWord) {
+                textElement.addClass('red');
+                challengeText = challengeText.split(' red')[0];
+            }
+            if ($(this).hasClass(currentChallenge)) {
+                console.log("this is current challenge", $(this))
+                textElement.addClass('bg-dark text-white text-uppercase text-monospace font-weight-bold');
+            } else {
+                textElement.addClass('text-muted');
+            }
+
+            textElement.text(challengeText)
+        })
+    }
+
     function setupCardEvents() {
         $(".startTimer").click(function () {
             $(".startTimer").attr('disabled', 'disabled');
-            TIME = 10;
             COUNTDOWN_TIMER = setInterval(function () {
                 $('.time-left').text(TIME);
                 TIME -= 1;
                 if (TIME < 0) {
                     clearInterval(COUNTDOWN_TIMER);
                     CORRECT_ANSWER = false;
-                    $('#cardModal').modal('hide');
+                    // $('#cardModal').modal('hide');
+                    $(".correctAnswer").unbind("click", correctAnswerClick);
+                    $(".correctAnswer").addClass('disabled');
                 }
             }, 1000);
-        })
+        });
+
+        $(".skipCard").click(function () {
+            clearInterval(COUNTDOWN_TIMER);
+            TIME = 100;
+            $('.time-left').text(TIME);
+            CURRENT_SELECTED_CARD = drawCard(CURRENT_SELECTED_CARD.points);
+            setupCurrentSelectedCard();
+        });
+
+
         $(".wrongAnswer").click(function () {
             CORRECT_ANSWER = false;
             clearInterval(COUNTDOWN_TIMER);
             $('#cardModal').modal('hide');
         })
-        $(".correctAnswer").click(function () {
-            CORRECT_ANSWER = true;
-            clearInterval(COUNTDOWN_TIMER);
-            $('#cardModal').modal('hide');
-        })
 
-        $('#cardModal').on('show.bs.modal', function () {
-            // disable success and wrong buttons until start timer?
-            $(".startTimer").attr('disabled', null);
-            const cardChallenge = $('#cardModal').find('.card-challenge')
+        $(".correctAnswer").bind("click", correctAnswerClick);
 
-            cardChallenge.each(function (index) {
-                const textElement = $(this).find('.text');
-                textElement.removeClass('red');
-                let challengeText = CURRENT_SELECTED_CARD[textElement.attr('challenge')];
-                const isRedWord = challengeText.indexOf('red') > -1;
-                if (isRedWord) {
-                    textElement.addClass('red');
-                    challengeText = challengeText.split(' red')[0];
-                }
-
-                
-                textElement.text(challengeText)
-            })
-        });
+        $('#cardModal').on('show.bs.modal', setupCurrentSelectedCard);
 
         $('#cardModal').on('hide.bs.modal', function () {
             if (CORRECT_ANSWER) {
@@ -17910,12 +17932,16 @@ const BoardGame = (($, uiService, storageService, components) => {
                 CORRECT_ANSWER = false;
             }
             CURRENT_PLAYER.played = true;
+            let currentTeamIndex = GAME_DETAILS.teams.findIndex(team => team.name === CURRENT_TEAM.name)
+            GAME_DETAILS.teams[currentTeamIndex].players.find(player => player.name === CURRENT_PLAYER.name).played = true;
+
             if (CURRENT_TEAM.players.filter(player => player.played === false).length === 0) {
+                console.log("all players from this team played")
                 CURRENT_TEAM.players.forEach(player => player.played = false);
             }
             findNextPlayer();
             setCurrentPlayer();
-    
+
             const winningTeam = GAME_DETAILS.teams.find(team => team.points > MAX_POINTS);
             if (winningTeam !== undefined) {
                 console.log("GAME FINISHED")
@@ -17929,12 +17955,37 @@ const BoardGame = (($, uiService, storageService, components) => {
             GAME_DETAILS.teams.forEach(team => team.points = 0);
             GAME_DETAILS.usedCards = [];
             storageService.save(GAME_DETAILS);
-            location.reload();
+            // location.reload();
+            $.getJSON("components/boardgame/data-json-tradus.json", cards => {
+
+                GAME_DETAILS = storageService.get();
+                CURRENT_PLAYER = GAME_DETAILS.currentPlayer;
+                CURRENT_TEAM = GAME_DETAILS.teams.find(team => team.name === CURRENT_PLAYER.team)
+                USED_CARDS = GAME_DETAILS.usedCards;
+                if (USED_CARDS.length > 0) {
+                    for (let i = 0; i < USED_CARDS.length; i++) {
+                        cards = cards.filter(card => card['draw'] !== USED_CARDS[i]['draw'])
+                    }
+                }
+                CARDS = cards;
+                $(`.pawn`).parent().html('');
+
+                setupPawns();
+                setCurrentPlayer();
+                storageService.save(GAME_DETAILS);
+                $("#finishModal").modal('hide');
+            });
         })
 
         $('.points').click(function (e) {
+            $(".correctAnswer").bind("click", correctAnswerClick);
+            $(".correctAnswer").removeClass('disabled');
+
+            TIME = 100;
+            $('.time-left').text(TIME);
+
             const selectedCardPoints = $(e.currentTarget).attr('points')
-            CURRENT_SELECTED_CARD = drawCard(selectedCardPoints)
+            CURRENT_SELECTED_CARD = drawCard(selectedCardPoints);
             $("#cardModal").modal('show');
         })
     }
@@ -17958,11 +18009,15 @@ const BoardGame = (($, uiService, storageService, components) => {
             nextTeamIndex = ++currentTeamIndex;
         }
         const nextPlayer = GAME_DETAILS.teams[nextTeamIndex].players.find(player => player.played === false);
+        console.log("TCL: findNextPlayer -> GAME_DETAILS.teams[nextTeamIndex]", GAME_DETAILS.teams[nextTeamIndex])
+        console.log("TCL: findNextPlayer -> nextPlayer", nextPlayer)
         CURRENT_TEAM = GAME_DETAILS.teams[nextTeamIndex];
         CURRENT_PLAYER = {
             ...nextPlayer,
             team: GAME_DETAILS.teams[nextTeamIndex].name
         }
+        GAME_DETAILS.currentPlayer = CURRENT_PLAYER;
+        console.log("TCL: findNextPlayer -> CURRENT_PLAYER", CURRENT_PLAYER)
     }
 
     function setPawn() {
@@ -17977,7 +18032,7 @@ const BoardGame = (($, uiService, storageService, components) => {
             const p = existingPawnTeamDetails.points - 1;
             const prevChallenge = challenges[p - 1];
             $(prevChallenge).html(PAWN_ELEMENTS[existingPawnTeamDetails.name])
-            
+
             $(currentChallenge).html(PAWN_ELEMENTS[CURRENT_TEAM.name]);
             existingPawnTeamDetails.points -= 1;
         } else {
