@@ -32,7 +32,7 @@ let PAWN_ELEMENTS = {
     'blue': `<div class='pawn blue' teamName='blue'></div>`,
 }
 const BoardGame = (($, uiService, storageService, components) => {
-    const MAX_POINTS = 12;
+    const MAX_POINTS = 48;
 
     let CURRENT_SELECTED_CARD = null;
     let GAME_DETAILS = null;
